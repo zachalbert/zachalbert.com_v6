@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Learning to Ship Quicker</title>
+  <meta name="description" content="The personal site of product designer Zac Halbert. UX, design, and code.">
+  <meta name="author" content="Zac Halbert">
+  <link rel="canonical" href="http://www.zachalbert.com/learning-to-ship-quicker/" />
+
+    <meta property="og:locale" content="en_US">    <meta property="og:type" content="article">  <meta property="og:title" content="Learning to Ship Quicker">        <meta property="og:url" content="http://www.zachalbert.com/learning-to-ship-quicker/">      <meta property="article:published_time" content="2013-03-24T00:00:00-07:00">      
+  <meta property="fb:admins" content="YOUR_FB_USER_ID" />
+  <meta property="fb:app_id" content="YOUR_FB_APP_ID"/>
+
+  <script src="//use.typekit.net/lsi2hge.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+  
+  <link href="/css/style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.1/html5shiv.min.js"></script>
+  <![endif]-->
+  </head>
+
+  <body>
+    
+    <header class="site-header galaxy" role="banner" id="top">
+        
+      <div id="star-field"></div>
+      
+      <div class="orrry-description">
+        <div class="row middle-xs">
+          <div class="col-xs-offset-7 col-xs-5 animated description-holder">
+            <h1>Orrery</h1>
+            <p>
+              This scale model of our solar system is an experiment in CSS animation.
+              Planetary rotation data was borrowed from 
+              <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">nasa.gov</a>.
+              <a href="/orrery">Learn more about the orrery here.</a>
+            </p>
+            <div class="inline-block">
+              <a href="#" class="icon-pause-filled button pause-animation" title="If your computer isn't particularly beefy, the constant animation might cause lag. Pause the animation here for a smoother experience."></a><a href="https://github.com/zachalbert/zachalbert.com_v6#the-orrery" class="icon-github button"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="solar-system">
+        
+        <div class="eris" id="eris">
+          <div class="label"><span class="symbol">E</span>Eris</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="pluto" id="pluto">
+          <div class="label"><span class="symbol">♇</span>Pluto</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+        
+        <div class="neptune" id="neptune">
+          <div class="label"><span class="symbol">♅</span>Neptune</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="uranus" id="uranus">
+          <div class="label"><span class="symbol">♃</span>Uranus</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+        
+        <div class="saturn" id="saturn">
+          <div class="label"><span class="symbol">♄</span>Saturn</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="jupiter" id="jupiter">
+          <div class="label"><span class="symbol">♃</span>Jupiter</div>
+          <div class="orbit">
+            <div class="planet">
+              <div class="satellite s_1"></div>
+              <div class="satellite s_2"></div>
+              <div class="satellite s_3"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mars" id="mars">
+          <div class="label"><span class="symbol">♂</span>Mars</div>
+          <div class="orbit">
+            <div class="planet">
+              <div class="satellite s_1"></div>
+              <div class="satellite s_2"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="earth" id="earth">
+          <div class="label"><span class="symbol">♁</span>Earth</div>
+          <div class="orbit">
+            <div class="planet">
+              <div class="satellite s_1"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="venus" id="venus">
+          <div class="label"><span class="symbol">♀</span>Venus</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="mercury" id="mercury">
+          <div class="label"><span class="symbol">☿</span>Mercury</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="sun" id="sun">
+          <div class="label"><span class="symbol">☉</span>Sun</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+      </div>
+
+    </header>
+    
+    <div class="anchor-offset" id="page"></div>
+    <div class="site-main">
+      
+      <div class="nav-wrapper">
+        <a href="http://www.zachalbert.com" class="logo" title="Zac Halbert">
+          <img src="/images/zachalbert-logo.svg" width="192" height="198" alt="ZacHalbert.com">
+        </a>
+        <nav class="site-nav" role="navigation">
+          <div class="row middle-xs">
+            <div class="col-xs-12 col-sm-5 col-md-4 link-to-top-wrap">
+              <a href="#page" class="link-to-top icon-arrow-up button"></a>
+            </div>
+            <div class="col-xs-12 col-sm-7 col-md-8 nav-wrap">
+              <div class="link-bank">
+                <a href="/work">Work</a><a href="/">Blog</a><a href="#about" class="about internal-link">About</a><a href="#contact" class="contact internal-link">Contact</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="mask">
+          <div class="mask-inner">
+
+            <div class="site-nav-bg">
+              <div class="logo-bg">
+                <img src="/images/zachalbert-logo-bg.svg" width="192" height="198" alt="ZacHalbert.com">
+              </div>            
+            </div>
+
+          </div>
+        </div>
+              
+      </div>
+
+      <div class="content">
+                <section>
+          <div class="post post-single">
+            <header class="aside">
+              <div class="inner">
+                <h1 class="post-title">Learning to Ship Quicker</h1>
+                
+              </div>
+            </header>
+
+            <time datetime="2014-11" class="post-date">March 2013</time>
+            <div class="body">
+              <p>The redesign of this site has been a really long time coming. What I mean by that is I’ve been stalling for <em>over a year</em>. I’ve been learning to ship quicker however, and I’m going to share a bit about what inspired me.</p>
+
+<!-- more -->
+
+<p>For context, I’ve been building websites since I was 13. I can crank out a site like this in a few weeks for a client. Yet I found myself in this ridiculous (and counter-productive) feedback loop that oscillated between “I really need to get this done,” and “Why the hell isn’t it done yet?” I wasn’t even just working slowly, I was completely stalled. Learning about <a href="http://www.jeffgothelf.com/blog/the-lean-ux-book-is-now-available/">Lean UX</a> and outcome-centric thinking is what helped me learn to ship quicker, and I want to share some of those resources.</p>
+
+<blockquote class="twitter-tweet">
+  <p>
+    @<a href="https://twitter.com/zachalbert">zachalbert</a> yeah, the curse of designers on personal projects. I have a few of my own I still need to finish :/
+  </p>
+  
+  <p>
+    &mdash; Matt Johnston (@mattsjohnston) <a href="https://twitter.com/mattsjohnston/status/311687923537952769">March 13, 2013</a>
+  </p>
+</blockquote>
+
+<p>Yeah…</p>
+
+<p>I’m not sure why I’m so susceptible to procrastinating on my own projects, but it’s a nasty little mental block. Before I mention what changed for me, it’s important to note that I still really suck at it — I’m just getting better.</p>
+
+<p>The first thing that changed was simply recognizing how badly I was procrastinating. Nothing like keeping tabs on the <a href="http://dribbble.com/shots/popular/">popular shots on Dribbble</a> to make you feel like a slacker. Keep that crap to a minimum though, lest you start to equate popularity on Dribbble with success at solving real world problems for non-designer people (which is hopefully why you’re doing design).</p>
+
+<p>The second — and biggest — thing that changed was <a href="http://sethgodin.typepad.com/seths_blog/2010/01/unrealized-projects.html">getting inspired</a> to build things by other people who have learned to ship quickly.</p>
+
+<h2 id="learn-to-focus-on-outcomes">Learn to Focus on Outcomes</h2>
+
+<p>I spend my daylight hours building web apps with a rapid-fire, <a href="http://www.jeffgothelf.com/blog/the-lean-ux-book-is-now-available/">Lean UX</a> approach. Lean UX preaches rapid prototyping, iteration, and customer validation. The tough part is that customer validation in this context means getting approval from the worst client <em>ever </em>— yourself. Part of being a good designer means staying thirsty to improve things around you, and we tend to apply this philosophy most ruthlessly to our own projects. This is actually a great thing as long as we can stay focused on <strong>outcomes</strong> instead of <strong>outputs</strong>. A plainer way to state that is to figure out what your end goal is, and drive at it uncompromisingly.</p>
+
+<p>I knew that in order to implement this perspective shift, I needed to do something drastically different. Inspired by <a href="http://drewwilson.com/">Drew Wilson</a> and <a href="http://joshlong.me/">Josh Long</a>, who wrote <a href="http://executebook.com/">a book about rapid execution</a> in 8 days (naturally), I shifted into survival mode.</p>
+
+<figure>
+  <img alt="Execute Book" src="/images/execute.jpg" width="1000" height="667" />
+  <figcaption>Execute by Drew Wilson and Josh Long</figcaption>
+</figure>
+
+<p>Survival mode forces a rapid realignment of priorities. Everything that isn’t directly related to survival is ignored, freeing up all your resources to pursue what’s important. What’s important in this case are the <strong>outcomes</strong> you hope to achieve.</p>
+
+<p>Outcomes are reasonable things, completely separate from deliverables. “I want to launch my website redesign” is an <strong>output</strong>. This type of thinking will lead to disappointment and procrastination, because it’s hard to tell what success looks like. An outcome-centric way to modify that statement might be “I want to share what I’m learning about doing UX design for startups with my design colleagues and startup founders.”</p>
+
+<p>Notice there’s no implementation assumptions in that last statement. It could be a website redesign, but doesn’t necessarily have to be. Once I shifted into survival mode, asking questions in the right way helped me figure out what I should cut from the scope and what I should keep. The best way to get comfortable with this barebones approach is to make sure to log every idea and bug somewhere permanent (some people use their brains — I use <a href="https://trello.com/">Trello</a> and <a href="http://evernote.com/">Evernote</a>).</p>
+
+<figure>
+  <img alt="Not every problem needs to be solved today." src="/images/problems.jpg" width="1200" height="800" />
+  <figcaption>Not every problem needs to be solved today.</figcaption>
+</figure>
+
+<h3 id="why-you-should-care">Why You Should Care</h3>
+
+<p>So why is it so important to learn how to ship quickly? This is so obvious it hardly bears repeating, but here it is anyway: <em>The web is a continuously evolving medium.</em> There is an impermanence to it like nothing else, and the act of contributing changes it forever. <a href="http://frankchimero.com/work/">Frank Chimero</a> sums up what it means to work in the world of web &amp; design better than anyone else:</p>
+
+<blockquote>
+  <p>“Culture changes what it expects from design after design changes culture.”<cite><em>Frank Chimero, from </em><a href="http://www.shapeofdesignbook.com/chapter06.html">The Shape of Design, chapter 6</a>.</cite></p>
+</blockquote>
+
+<p>In other words, you know that awesome thing you’ve been building for the last year? Well… it’s already <a href="http://www.fatdux.com/blog/2009/09/22/calculating-the-length-of-an-internet-year/">4.7 internet years out of date</a>.</p>
+
+<p>The hardest part about all this is knowing exactly <em>what</em> to cut, and <em>when it’s appropriate</em> to do so. This takes practice, but outcome-centric thinking <em>really</em> helps.</p>
+
+
+            
+              <!-- 
+              <div class="post-social col-main">
+                <div class="inner">
+                  <a href="#" class="icon-twitter button"></a><a href="#" class="icon-linkedin button"></a><a href="#" class="icon-facebook button"></a><a href="#" class="icon-google-plus button"></a>
+                </div>
+              </div>
+               -->
+              
+              
+              <ul class="post-social col-main">
+                <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.zachalbert.com&t=" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;" class="icon-facebook button"></a></li>
+                <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.zachalbert.com&text=:%20http%3A%2F%2Fwww.zachalbert.com&via=zachalbert" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;" class="icon-twitter button"></a></li>
+                <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.zachalbert.com" target="_blank" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.URL)); return false;" class="icon-google-plus button"></a></li>
+                <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fwww.zachalbert.com&title=&summary=&source=http%3A%2F%2Fwww.zachalbert.com" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;" class="icon-linkedin button"></a></li>
+                <li><a href="mailto:?subject=&body=:%20http%3A%2F%2Fwww.zachalbert.com" target="_blank" title="Email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;" class="icon-mail-filled button"></a></li>
+              </ul>
+              
+            
+            </div>
+            <hr>
+                        <section>
+            <div class="aside">
+              <div class="inner">
+                <h1 class="hyphenate">Product Design From Scratch</h1>
+                <h2>An occasional bag-o-tricks filled with tips and guides on prototyping your app or website</h2>
+              </div>
+            </div>
+            <p class="top">
+              The product design from scratch newsletter is an occasional email I send with tips and techniques for people who want to learn how to turn their ideas into <strong>real</strong>, <em>usable</em> apps and websites to show to potential customers, investors, or business partners. Prior design experience not required.
+            </p>
+            <div class="col-main">
+              <div id="mc_embed_signup">
+                <form action="//scouthawk.us9.list-manage.com/subscribe/post?u=c4b60de481b3f58170b708c04&amp;id=44da977ada" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div class="row full" id="mc_embed_signup_scroll">
+                    <div class="col-xs-12 no-padding-left">
+                      <label for="mce-EMAIL" class="text-left">Your Email (No spam &mdash; promise)</label>
+                    </div>
+                    <div class="col-sm-8 no-padding-left">
+                      <input type="email" value="" name="EMAIL" class="email no-margin-bottom" id="mce-EMAIL" placeholder="Email Address" required>
+                      <div style="position: absolute; left: -5000px;"><input type="text" name="b_c4b60de481b3f58170b708c04_44da977ada" tabindex="-1" value=""></div>
+                    </div>
+                    <div class="col-sm-4 no-padding-right">
+                      <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button button-primary"><span>Subscribe</span></button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            </section>
+
+            
+            <hr>
+            <div class="post-comments col-main">
+              <div id="disqus_thread"></div>
+              <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'zachalbert'; // required: replace example with your forum shortname
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+              </script>
+              <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+            
+
+          </div>
+        </section>
+      </div>
+      
+      <a href="#" id="about" class="anchor-offset"></a>
+      <section>
+        <div class="row">
+          <div class="post_side">
+            <div class="bio-pic" title="Zac Halbert"></div>
+          </div>
+          <div class="post_main">
+            <p>
+              Hi, I'm Zac Halbert. I'm a digital product designer living in San Francisco, California with my Wife Sheena and sheepdog Rufus. I own independent product design consultancy <a href="http://www.scouthawk.com/">Scout Hawk Product Design Studios</a>.
+            </p>
+            <p>
+              I build user-facing applications and webites for technology companies, especially startups aiming to make a meaingful, positive impact on everyone. My focus is on early stage products, making strategic vision a reality, and advising technical teams in need of creative direction.
+            </p>
+            <p>
+              I've been fortunate enough to work with really talented people at some amazing companies.
+            </p>
+          </div>
+          <div class="nascarification">
+            <span class="nascar samahope" title="SamaHope"></span><span class="nascar samagroup" title="SamaGroup"></span><span class="nascar recurly" title="Recurly"></span><span class="nascar broadly" title="Broadly"></span><span class="nascar sharefund" title="ShareFund"></span><span class="nascar archively" title="Archively"></span><!-- <span class="nascar nomnommer" title="NomNommer"></span> -->
+            <br><br>
+            <a href="#contact"><i class="icon-arrow-down no-underline hover-bounce"></i>&nbsp;&nbsp;&nbsp;Interested in working together?</a>
+          </div>
+          <div class="text-center">
+            
+          </div>  
+        </div>
+      </section>
+
+    </div>
+
+
+    <a href="#" id="contact" class="anchor-offset"></a>
+    <footer class="site-footer" role="contentinfo">
+        
+      <section>
+        <div class="row">
+          <div class="post_side">
+            <h2>Get in touch</h2>
+          </div>
+          <div class="post_main">
+            <form method="post" action="//formspree.io/hi@scouthawk.com" id="contact-form">
+              <input class="float-label" type="text" placeholder="Your name" name="name" id="name">
+              <input class="float-label" type="email" placeholder="Your email" name="email" id="email">
+
+              <textarea class="float-label" placeholder="Your message" name="message" rows="3"></textarea>
+              <input type="checkbox" checked="checked" name="subscribe" id="subscribe"><label for="subscribe">Get occasional, high quality product design tips delivered to your inbox</label>
+              <input type="hidden" name="_subject" value="New contact" />
+              <input type="hidden" name="_next" value="http://www.zachalbert.com/thanks" />
+              <input type="text" name="_gotcha" style="display:none" />
+              <input type="submit" class="button button-primary" value="Send">
+            </form>
+          </div>
+        </div>
+      </section>
+      
+      <section class="page-bottom">
+        <div class="row">
+          <div class="post_side colophon">
+            <p>Built by <span class="vcard author fn"><a href="http://www.zachalbert.com" rel="author">Zac Halbert</a></span>, <span class="updated">2015</span>.<br><a href="https://github.com/zachalbert/zachalbert.com_v6">The code for this site</a> is free to use under the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a>.</p>
+          </div>
+          <div class="post_main">
+            <div class="row full around-xs social-bank">
+              <div class="col-xs2"><a href="https://twitter.com/zachalbert" class="icon-twitter button"></a></div>
+              <div class="col-xs2"><a href="https://dribbble.com/zachalbert" class="icon-dribbble button"></a></div>
+              <div class="col-xs2"><a href="https://www.linkedin.com/in/zachalbert" class="icon-linkedin button"></a></div>
+              <div class="col-xs2"><a href="https://github.com/zachalbert" class="icon-github button"></a></div>
+              <div class="col-xs2"><a href="http://instagram.com/zachalbert" class="icon-instagram button"></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </footer>
+
+    <script src="/js/site.min.js"></script>    
+  </body>
+</html>

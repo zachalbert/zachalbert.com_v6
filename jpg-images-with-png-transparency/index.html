@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>JPG Images with PNG Transparency</title>
+  <meta name="description" content="The personal site of product designer Zac Halbert. UX, design, and code.">
+  <meta name="author" content="Zac Halbert">
+  <link rel="canonical" href="http://www.zachalbert.com/jpg-images-with-png-transparency/" />
+
+    <meta property="og:locale" content="en_US">    <meta property="og:type" content="article">  <meta property="og:title" content="JPG Images with PNG Transparency">        <meta property="og:url" content="http://www.zachalbert.com/jpg-images-with-png-transparency/">      <meta property="article:published_time" content="2013-04-13T00:00:00-07:00">      
+  <meta property="fb:admins" content="YOUR_FB_USER_ID" />
+  <meta property="fb:app_id" content="YOUR_FB_APP_ID"/>
+
+  <script src="//use.typekit.net/lsi2hge.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+  
+  <link href="/css/style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.1/html5shiv.min.js"></script>
+  <![endif]-->
+  </head>
+
+  <body>
+    
+    <header class="site-header galaxy" role="banner" id="top">
+        
+      <div id="star-field"></div>
+      
+      <div class="orrry-description">
+        <div class="row middle-xs">
+          <div class="col-xs-offset-7 col-xs-5 animated description-holder">
+            <h1>Orrery</h1>
+            <p>
+              This scale model of our solar system is an experiment in CSS animation.
+              Planetary rotation data was borrowed from 
+              <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">nasa.gov</a>.
+              <a href="/orrery">Learn more about the orrery here.</a>
+            </p>
+            <div class="inline-block">
+              <a href="#" class="icon-pause-filled button pause-animation" title="If your computer isn't particularly beefy, the constant animation might cause lag. Pause the animation here for a smoother experience."></a><a href="https://github.com/zachalbert/zachalbert.com_v6#the-orrery" class="icon-github button"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="solar-system">
+        
+        <div class="eris" id="eris">
+          <div class="label"><span class="symbol">E</span>Eris</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="pluto" id="pluto">
+          <div class="label"><span class="symbol">♇</span>Pluto</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+        
+        <div class="neptune" id="neptune">
+          <div class="label"><span class="symbol">♅</span>Neptune</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="uranus" id="uranus">
+          <div class="label"><span class="symbol">♃</span>Uranus</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+        
+        <div class="saturn" id="saturn">
+          <div class="label"><span class="symbol">♄</span>Saturn</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="jupiter" id="jupiter">
+          <div class="label"><span class="symbol">♃</span>Jupiter</div>
+          <div class="orbit">
+            <div class="planet">
+              <div class="satellite s_1"></div>
+              <div class="satellite s_2"></div>
+              <div class="satellite s_3"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mars" id="mars">
+          <div class="label"><span class="symbol">♂</span>Mars</div>
+          <div class="orbit">
+            <div class="planet">
+              <div class="satellite s_1"></div>
+              <div class="satellite s_2"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="earth" id="earth">
+          <div class="label"><span class="symbol">♁</span>Earth</div>
+          <div class="orbit">
+            <div class="planet">
+              <div class="satellite s_1"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="venus" id="venus">
+          <div class="label"><span class="symbol">♀</span>Venus</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="mercury" id="mercury">
+          <div class="label"><span class="symbol">☿</span>Mercury</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="sun" id="sun">
+          <div class="label"><span class="symbol">☉</span>Sun</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+      </div>
+
+    </header>
+    
+    <div class="anchor-offset" id="page"></div>
+    <div class="site-main">
+      
+      <div class="nav-wrapper">
+        <a href="http://www.zachalbert.com" class="logo" title="Zac Halbert">
+          <img src="/images/zachalbert-logo.svg" width="192" height="198" alt="ZacHalbert.com">
+        </a>
+        <nav class="site-nav" role="navigation">
+          <div class="row middle-xs">
+            <div class="col-xs-12 col-sm-5 col-md-4 link-to-top-wrap">
+              <a href="#page" class="link-to-top icon-arrow-up button"></a>
+            </div>
+            <div class="col-xs-12 col-sm-7 col-md-8 nav-wrap">
+              <div class="link-bank">
+                <a href="/work">Work</a><a href="/">Blog</a><a href="#about" class="about internal-link">About</a><a href="#contact" class="contact internal-link">Contact</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="mask">
+          <div class="mask-inner">
+
+            <div class="site-nav-bg">
+              <div class="logo-bg">
+                <img src="/images/zachalbert-logo-bg.svg" width="192" height="198" alt="ZacHalbert.com">
+              </div>            
+            </div>
+
+          </div>
+        </div>
+              
+      </div>
+
+      <div class="content">
+                <section>
+          <div class="post post-single">
+            <header class="aside">
+              <div class="inner">
+                <h1 class="post-title">JPG Images with PNG Transparency</h1>
+                
+              </div>
+            </header>
+
+            <time datetime="2014-11" class="post-date">April 2013</time>
+            <div class="body">
+              <p>JPG images provide small file sizes, but don’t give you the flexibility of transparency. PNGs provide you with transparency, but don’t compress visually complex images very well. I have been experimenting with a technique to get the best of both worlds.</p>
+
+<!-- more -->
+
+<p>Before we begin, let me first say that the <em>best</em> solution is to set <code>overflow: hidden</code> on a parent element that contains a compressed JPG, as in the case of round avatars. Using CSS3 and the <code>border-radius</code> property, you can simulate round corners on an image pretty easily. This technique works because the part you want to be transparent (the mask) is a <em>regular shape</em>. However, if you need your mask to be an <em>irregular</em> shape, then you’re stuck using PNGs and dealing with a large file size. The problem is compounded by the fact that you now have 2x retina images to worry about, making file size even more of an issue.</p>
+
+<h3 id="a-real-world-scenario">A Real World Scenario</h3>
+
+<p><img class="align-right" alt="Wood panel with PNG transparency" src="/images/what-are-you-into.png" width="200" height="150" />This isn’t just a theoretical problem. Here’s an example of a project I did a while ago that required an irregular mask. To give you some context, the wood panel was stationary, and the images behind it would rotate every few seconds. The wood texture made the final PNG abnormally large. The audience didn’t universally have good bandwidth (something you <em>still</em> can’t count on in 2013). I needed to find a solution that would give me the small file size of a JPG, but allow for the 24-bit transparency of a PNG.</p>
+
+<p>The solution was pretty simple, though a little labor-intensive. For the sake of simplicity, I’m going to demonstrate this technique with a simple round avatar of my sheepdog, Rufus.</p>
+
+<h3 id="step-1">Step 1</h3>
+
+<p><img class="align-right" alt="ruf-s2" src="/images/ruf-s2.png" width="237" height="237" />Here’s the original image with rounded corners, saved as a transparent PNG-24. I’ve cut the dimensions in half so it’s retina ready. Using Photoshop CS6’s <a href="http://saveforwebclaws.com/">save for web</a> tool, The final total comes to <code>357KB</code>. I’ll bet we can do better.</p>
+
+<h3 style="clear: both;">
+  <strong>Step 2</strong>
+</h3>
+
+<p><img class="align-right" alt="ruf-s3" src="/images/ruf-s31.jpg" width="237" height="237" />Save your original image (without the mask) as a compressed JPG—I’ve named mine rufus-compressed.jpg. Here it is, now an entirely reasonable <code>30KB</code>.</p>
+
+<h3 style="clear: both;">
+  Step 3
+</h3>
+
+<p><img class="align-right" alt="ruf-s4" src="/images/ruf-s4.jpg" width="237" height="237" />Here’s where it starts to get weird. In Photoshop (or whatever), start by creating a new layer. Using the marquee tool, drag out a circle that will represent the visible portion of your image. Then go to <code>Select &gt; Inverse</code> and fill with a random color. This is what it looks like.</p>
+
+<h3 style="clear: both;">
+  Step 4
+</h3>
+
+<p>Leaving your original Photoshop document open, open the compressed JPG you saved in step #2.</p>
+
+<h3 id="step-5">Step 5</h3>
+
+<p>Go back to your original document and select your mask layer. Then, <code>Select &gt; All</code> and <code>Edit &gt; Copy</code>.</p>
+
+<h3 id="step-6">Step 6</h3>
+
+<p>Go to the document with your compressed JPG, create a new layer, and <code>Edit &gt; Paste</code>. Now, <code>CMD + click</code> (or <code>CTRL + click</code> on Windows) on your mask layer’s thumbnail. This will select all the pixels on that layer.</p>
+
+<h3 id="step-7">Step 7</h3>
+
+<p>Hide your mask layer and select the layer with your compressed image. If you haven’t done so already, you’ll need to unlock it by double clicking and pressing OK on the New Layer dialog that pops up. Now simply hit <code>Delete</code> to cut the mask shape out of your compressed JPG.</p>
+
+<h3 id="step-8">Step 8</h3>
+
+<p><img class="align-right size-full wp-image-397" alt="ruf-s5" src="/images/ruf-s5.png" width="237" height="237" />Now we’re left with an image that’s already undergone JPG compression and ready to be saved as a PNG. Since a lot of image information has been stripped, the PNG will necessarily be smaller than the original <code>357KB</code>. Using the save for web dialog again, save as a PNG-24. The new version comes out to <code>239KB</code>, a 33% savings.</p>
+
+<h3 style="clear: both;">
+  It sounds like a lot of work for 33% savings…
+</h3>
+
+<p>You’re not wrong! However, when you consider all of the images, stylesheets, scripts, and other assets that need to be loaded, 33% can make a measurable dent in your site’s load time. As Lara Swanson astutely points out, <a href="http://alistapart.com/article/improving-ux-through-front-end-performance">good performance contributes to a good user experience</a>. When you’re fighting for your user, going the extra mile is always a worthwhile endeavor if you have the time and budget for it.</p>
+
+<p>Let me know in the comments if you have any other fancy techniques for accomplishing good compression on JPG images with PNG transparency.</p>
+
+
+            
+              <!-- 
+              <div class="post-social col-main">
+                <div class="inner">
+                  <a href="#" class="icon-twitter button"></a><a href="#" class="icon-linkedin button"></a><a href="#" class="icon-facebook button"></a><a href="#" class="icon-google-plus button"></a>
+                </div>
+              </div>
+               -->
+              
+              
+              <ul class="post-social col-main">
+                <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.zachalbert.com&t=" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;" class="icon-facebook button"></a></li>
+                <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.zachalbert.com&text=:%20http%3A%2F%2Fwww.zachalbert.com&via=zachalbert" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;" class="icon-twitter button"></a></li>
+                <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.zachalbert.com" target="_blank" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.URL)); return false;" class="icon-google-plus button"></a></li>
+                <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fwww.zachalbert.com&title=&summary=&source=http%3A%2F%2Fwww.zachalbert.com" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;" class="icon-linkedin button"></a></li>
+                <li><a href="mailto:?subject=&body=:%20http%3A%2F%2Fwww.zachalbert.com" target="_blank" title="Email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;" class="icon-mail-filled button"></a></li>
+              </ul>
+              
+            
+            </div>
+            <hr>
+                        <section>
+            <div class="aside">
+              <div class="inner">
+                <h1 class="hyphenate">Product Design From Scratch</h1>
+                <h2>An occasional bag-o-tricks filled with tips and guides on prototyping your app or website</h2>
+              </div>
+            </div>
+            <p class="top">
+              The product design from scratch newsletter is an occasional email I send with tips and techniques for people who want to learn how to turn their ideas into <strong>real</strong>, <em>usable</em> apps and websites to show to potential customers, investors, or business partners. Prior design experience not required.
+            </p>
+            <div class="col-main">
+              <div id="mc_embed_signup">
+                <form action="//scouthawk.us9.list-manage.com/subscribe/post?u=c4b60de481b3f58170b708c04&amp;id=44da977ada" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div class="row full" id="mc_embed_signup_scroll">
+                    <div class="col-xs-12 no-padding-left">
+                      <label for="mce-EMAIL" class="text-left">Your Email (No spam &mdash; promise)</label>
+                    </div>
+                    <div class="col-sm-8 no-padding-left">
+                      <input type="email" value="" name="EMAIL" class="email no-margin-bottom" id="mce-EMAIL" placeholder="Email Address" required>
+                      <div style="position: absolute; left: -5000px;"><input type="text" name="b_c4b60de481b3f58170b708c04_44da977ada" tabindex="-1" value=""></div>
+                    </div>
+                    <div class="col-sm-4 no-padding-right">
+                      <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button button-primary"><span>Subscribe</span></button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            </section>
+
+            
+            <hr>
+            <div class="post-comments col-main">
+              <div id="disqus_thread"></div>
+              <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'zachalbert'; // required: replace example with your forum shortname
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+              </script>
+              <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+            
+
+          </div>
+        </section>
+      </div>
+      
+      <a href="#" id="about" class="anchor-offset"></a>
+      <section>
+        <div class="row">
+          <div class="post_side">
+            <div class="bio-pic" title="Zac Halbert"></div>
+          </div>
+          <div class="post_main">
+            <p>
+              Hi, I'm Zac Halbert. I'm a digital product designer living in San Francisco, California with my Wife Sheena and sheepdog Rufus. I own independent product design consultancy <a href="http://www.scouthawk.com/">Scout Hawk Product Design Studios</a>.
+            </p>
+            <p>
+              I build user-facing applications and webites for technology companies, especially startups aiming to make a meaingful, positive impact on everyone. My focus is on early stage products, making strategic vision a reality, and advising technical teams in need of creative direction.
+            </p>
+            <p>
+              I've been fortunate enough to work with really talented people at some amazing companies.
+            </p>
+          </div>
+          <div class="nascarification">
+            <span class="nascar samahope" title="SamaHope"></span><span class="nascar samagroup" title="SamaGroup"></span><span class="nascar recurly" title="Recurly"></span><span class="nascar broadly" title="Broadly"></span><span class="nascar sharefund" title="ShareFund"></span><span class="nascar archively" title="Archively"></span><!-- <span class="nascar nomnommer" title="NomNommer"></span> -->
+            <br><br>
+            <a href="#contact"><i class="icon-arrow-down no-underline hover-bounce"></i>&nbsp;&nbsp;&nbsp;Interested in working together?</a>
+          </div>
+          <div class="text-center">
+            
+          </div>  
+        </div>
+      </section>
+
+    </div>
+
+
+    <a href="#" id="contact" class="anchor-offset"></a>
+    <footer class="site-footer" role="contentinfo">
+        
+      <section>
+        <div class="row">
+          <div class="post_side">
+            <h2>Get in touch</h2>
+          </div>
+          <div class="post_main">
+            <form method="post" action="//formspree.io/hi@scouthawk.com" id="contact-form">
+              <input class="float-label" type="text" placeholder="Your name" name="name" id="name">
+              <input class="float-label" type="email" placeholder="Your email" name="email" id="email">
+
+              <textarea class="float-label" placeholder="Your message" name="message" rows="3"></textarea>
+              <input type="checkbox" checked="checked" name="subscribe" id="subscribe"><label for="subscribe">Get occasional, high quality product design tips delivered to your inbox</label>
+              <input type="hidden" name="_subject" value="New contact" />
+              <input type="hidden" name="_next" value="http://www.zachalbert.com/thanks" />
+              <input type="text" name="_gotcha" style="display:none" />
+              <input type="submit" class="button button-primary" value="Send">
+            </form>
+          </div>
+        </div>
+      </section>
+      
+      <section class="page-bottom">
+        <div class="row">
+          <div class="post_side colophon">
+            <p>Built by <span class="vcard author fn"><a href="http://www.zachalbert.com" rel="author">Zac Halbert</a></span>, <span class="updated">2015</span>.<br><a href="https://github.com/zachalbert/zachalbert.com_v6">The code for this site</a> is free to use under the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a>.</p>
+          </div>
+          <div class="post_main">
+            <div class="row full around-xs social-bank">
+              <div class="col-xs2"><a href="https://twitter.com/zachalbert" class="icon-twitter button"></a></div>
+              <div class="col-xs2"><a href="https://dribbble.com/zachalbert" class="icon-dribbble button"></a></div>
+              <div class="col-xs2"><a href="https://www.linkedin.com/in/zachalbert" class="icon-linkedin button"></a></div>
+              <div class="col-xs2"><a href="https://github.com/zachalbert" class="icon-github button"></a></div>
+              <div class="col-xs2"><a href="http://instagram.com/zachalbert" class="icon-instagram button"></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </footer>
+
+    <script src="/js/site.min.js"></script>    
+  </body>
+</html>

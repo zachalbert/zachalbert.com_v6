@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>A Rapid Prototyping Toolbox for Designers with Jekyll and Foundation 4</title>
+  <meta name="description" content="The personal site of product designer Zac Halbert. UX, design, and code.">
+  <meta name="author" content="Zac Halbert">
+  <link rel="canonical" href="http://www.zachalbert.com/rapid-prototyping-toolbox-for-designers/" />
+
+    <meta property="og:locale" content="en_US">    <meta property="og:type" content="article">  <meta property="og:title" content="A Rapid Prototyping Toolbox for Designers with Jekyll and Foundation 4">        <meta property="og:url" content="http://www.zachalbert.com/rapid-prototyping-toolbox-for-designers/">      <meta property="article:published_time" content="2013-06-20T00:00:00-07:00">      
+  <meta property="fb:admins" content="YOUR_FB_USER_ID" />
+  <meta property="fb:app_id" content="YOUR_FB_APP_ID"/>
+
+  <script src="//use.typekit.net/lsi2hge.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+  
+  <link href="/css/style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.1/html5shiv.min.js"></script>
+  <![endif]-->
+  </head>
+
+  <body>
+    
+    <header class="site-header galaxy" role="banner" id="top">
+        
+      <div id="star-field"></div>
+      
+      <div class="orrry-description">
+        <div class="row middle-xs">
+          <div class="col-xs-offset-7 col-xs-5 animated description-holder">
+            <h1>Orrery</h1>
+            <p>
+              This scale model of our solar system is an experiment in CSS animation.
+              Planetary rotation data was borrowed from 
+              <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">nasa.gov</a>.
+              <a href="/orrery">Learn more about the orrery here.</a>
+            </p>
+            <div class="inline-block">
+              <a href="#" class="icon-pause-filled button pause-animation" title="If your computer isn't particularly beefy, the constant animation might cause lag. Pause the animation here for a smoother experience."></a><a href="https://github.com/zachalbert/zachalbert.com_v6#the-orrery" class="icon-github button"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="solar-system">
+        
+        <div class="eris" id="eris">
+          <div class="label"><span class="symbol">E</span>Eris</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="pluto" id="pluto">
+          <div class="label"><span class="symbol">♇</span>Pluto</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+        
+        <div class="neptune" id="neptune">
+          <div class="label"><span class="symbol">♅</span>Neptune</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="uranus" id="uranus">
+          <div class="label"><span class="symbol">♃</span>Uranus</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+        
+        <div class="saturn" id="saturn">
+          <div class="label"><span class="symbol">♄</span>Saturn</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="jupiter" id="jupiter">
+          <div class="label"><span class="symbol">♃</span>Jupiter</div>
+          <div class="orbit">
+            <div class="planet">
+              <div class="satellite s_1"></div>
+              <div class="satellite s_2"></div>
+              <div class="satellite s_3"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mars" id="mars">
+          <div class="label"><span class="symbol">♂</span>Mars</div>
+          <div class="orbit">
+            <div class="planet">
+              <div class="satellite s_1"></div>
+              <div class="satellite s_2"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="earth" id="earth">
+          <div class="label"><span class="symbol">♁</span>Earth</div>
+          <div class="orbit">
+            <div class="planet">
+              <div class="satellite s_1"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="venus" id="venus">
+          <div class="label"><span class="symbol">♀</span>Venus</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="mercury" id="mercury">
+          <div class="label"><span class="symbol">☿</span>Mercury</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="sun" id="sun">
+          <div class="label"><span class="symbol">☉</span>Sun</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+      </div>
+
+    </header>
+    
+    <div class="anchor-offset" id="page"></div>
+    <div class="site-main">
+      
+      <div class="nav-wrapper">
+        <a href="http://www.zachalbert.com" class="logo" title="Zac Halbert">
+          <img src="/images/zachalbert-logo.svg" width="192" height="198" alt="ZacHalbert.com">
+        </a>
+        <nav class="site-nav" role="navigation">
+          <div class="row middle-xs">
+            <div class="col-xs-12 col-sm-5 col-md-4 link-to-top-wrap">
+              <a href="#page" class="link-to-top icon-arrow-up button"></a>
+            </div>
+            <div class="col-xs-12 col-sm-7 col-md-8 nav-wrap">
+              <div class="link-bank">
+                <a href="/work">Work</a><a href="/">Blog</a><a href="#about" class="about internal-link">About</a><a href="#contact" class="contact internal-link">Contact</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="mask">
+          <div class="mask-inner">
+
+            <div class="site-nav-bg">
+              <div class="logo-bg">
+                <img src="/images/zachalbert-logo-bg.svg" width="192" height="198" alt="ZacHalbert.com">
+              </div>            
+            </div>
+
+          </div>
+        </div>
+              
+      </div>
+
+      <div class="content">
+                <section>
+          <div class="post post-single">
+            <header class="aside">
+              <div class="inner">
+                <h1 class="post-title">A Rapid Prototyping Toolbox for Designers with Jekyll and Foundation 4</h1>
+                
+              </div>
+            </header>
+
+            <time datetime="2014-11" class="post-date">June 2013</time>
+            <div class="body">
+              <p>Learn how to rapidly prototype marketing websites or blogs with a simple set of tools–Jekyll and Foundation 4. This isn’t necessarily the <strong>fastest</strong> way to build a prototype, but this is the most extensible way I’ve found that allows you to move seamlessly from prototype to production. I built <a href="http://welcomemat.co">WelcomeMat.co</a> in order to test these tools in a somewhat-real-world environment.</p>
+
+<p><span class="alert"><strong>EDIT [01/15/2015]:</strong> This post is a bit out of date. I now recommend checking out my new post for <a href="/website-redesign-2015/">rapid prototyping static websites using gulp and jekyll</a>.</span></p>
+
+<!-- more -->
+
+<figure>
+  <img class="size-full wp-image-522 " alt="A Rapid Prototyping Toolbox with Jekyll + Foundation 4" src="/images/foundation-zurb-3.jpg" width="1600" height="832" />
+</figure>
+
+<p><a href="http://welcomemat.co">Check out the site</a> (and make sure to resize the browser to notice how responsivey it is). Although it houses dynamic content which changes on a fairly regular basis, it’s a straight, static .HTML document. This is the key to Jekyll. It gives you the ability to build a site with a powerful templated structure similar to WordPress or other Blogging/CMS systems, but it compiles to good ol’ HTML. No pesky databases or giant bloated systems to worry about.</p>
+
+<p>There are certainly downsides to learning Jekyll, too. There’s a bit of a learning curve (though it’s smaller than learning to build custom templates with WordPress). The community of support and plugin development isn’t as robust as WordPress or Drupal. The community that <em>**is **</em>there tends to be more developer-minded, which may be a bit scary for a designer (I was certainly intimidated when I started). Having said that, these tools are perfect for getting your ideas out quickly, and are much simpler to learn than you think.</p>
+
+<p>Foundation is a frontend framework that gives you baked-in support for responsive grid systems, modals, image carousels, etc. It makes it easy to do 95% of what you’d want to do for a blog or marketing site, and makes CSS layout more sensical (once you learn the system).</p>
+
+<h2 id="prerequisites">Prerequisites</h2>
+
+<p>Before diving into Jekyll and Foundation 4, you should have a reasonable grasp on HTML and CSS. You don’t need to be an expert, though you should know how to Google markup structures you’re unfamiliar with. Though Javascript or dynamic scripting experience helps, it’s not <strong>required</strong>. It will simply make it easier to work with Foundation’s included Javascript components.</p>
+
+<h2 id="what-the-perfect-rapid-prototyping-toolbox-looks-like">What the perfect rapid prototyping toolbox looks like</h2>
+
+<p>I’ve used a few tools during the course of my career building Internet, but certainly not all of them. I’m not out to find the very best of the best, but rather the tools that satisfy my criteria for success. They should:</p>
+
+<ol id="success-criteria">
+  <li>
+    …have a short learning curve, with hidden power that I can introduce over time, as I have time.
+  </li>
+  <li>
+    …be able to accommodate sweeping changes easily, without rebuilding structure or duplicating work.
+  </li>
+  <li>
+    …be able to move seamlessly from prototype to production in order to put some real mileage on the prototype.
+  </li>
+  <li>
+    …make it easy to add slightly more complex javascript functionality like modals, suckerfish menus, image carousels, and so on.
+  </li>
+  <li>
+    …get out of the way and allow me to think about the product design, rather than implementation details.
+  </li>
+</ol>
+
+<p><em>(Sidenote: As I mentioned, this article is about building a blog or marketing website. For app prototyping, I recommend you check out <a href="http://meteor.com/">meteor.js</a>, and the awesome book <a href="http://www.discovermeteor.com/">Discover Meteor</a>, by the eminent and productive team of <a href="http://sachagreif.com/">Sacha Grief</a> and <a href="http://tom.thesnail.org/">Tom Coleman</a>. I’m still too early in the book to say a whole lot about it, other than “be not afraid”—they make the topic very approachable. I look forward to the horde of designer-developed apps that will soon be released into the wild thanks to their tireless work.)</em></p>
+
+<p><em>(Side-sidenote: It was pointed out by <a href="https://twitter.com/davebarnow">@davebarnow</a> that <a href="http://mixture.io/">Mixture.io</a> does much of the static site generation and site management stuff for you, obfuscating some of the complexities behind a nice UI. Full disclaimer—I haven’t used Mixture for a real project yet, as I prefer to understand what’s going on under the hood first. It’s an awesome app (though the onboarding inside the app could use some work), and you should absolutely <a href="http://mixture.io/">check it out</a> if it helps you crank out your ideas quicker).</em></p>
+
+<h2 id="here8217s-what-my-rapid-prototyping-toolbox-looks-like">Here’s what my rapid prototyping toolbox looks like</h2>
+
+<p>The main stars of the toolbox are Jekyll and Foundation 4. However I’ll also point out some of the supporting tools, as well as why I picked them.</p>
+
+<h3 id="jekyll">Jekyll</h3>
+
+<p>Jekyll is a so-called “blog aware static site generator.” This means it’s similar to blogging engines like WordPress, which are built to showcase episodic content and use a database to build a webpage from “includes” (or “partials”). Includes allow you to have a single file that contains the content for your header, a single file for your footer, and so on—allowing you to <a href="http://rocketmedia.com/blog/article/the-danger-of-asking-your-web-designer-to-make-the-logo-bigger#.UcHMlfZ0se0">make your logo bigger</a> in a single file instead of copying and pasting your changes to every page of your site.</p>
+
+<p>Jekyll is a bit different than a system like WordPress, in that there is no database, and no admin interface. All your “posts” are simple HTML or Markdown files located in a particular directory of your site. You still have most of the functionality of a database-driven website, like being able to add your own meta data to a post (for WelcomeMat.co, I have attributes on each post called title, size, author, and authorURL). The net result of a Jekyll site, however, is that it outputs plain ol’ HTML. Few things are more performant than straight HTML. It also makes deploying your code a breeze, since you’re simply moving everything in your “_site” directory to your server. Here’s a great tutorial on <a href="https://learn.andrewmunsell.com/learn/jekyll-by-example">getting started with Jekyll</a>.</p>
+
+<h3 id="zurb-foundation-4">ZURB Foundation 4</h3>
+
+<p><a href="http://foundation.zurb.com/">Foundation</a> provides you with a markup and CSS template so you can rapidly build out a design based on a 12 column grid. It’s a popular but lesser-known competitor to <a href="http://twitter.github.io/bootstrap/">Twitter Bootstrap</a>, which has made it possible for developers to build sites that all look the same for years. You could substitute Boostrap for Foundation if you know it better, or any of the other <a href="http://usablica.github.io/front-end-frameworks/compare.html">myriad frontend frameworks</a> to the same effect. I prefer Foundation because it uses a grid system that is responsive by default, and gives you access to a small grid and a large grid. This means you can define how your site should look on mobile devices up to iPad size, and how it should look on devices larger than that. You can easily modify your CSS to add more granular breakpoints, but starting with a small device and a large device makes it achingly simple to make your site responsive by default (I hadn’t intended to make WelcomeMat.co responsive when I started building, but Foundation made it silly not to).</p>
+
+<p>On top of that, Foundation is a tad plainer by default, which encourages you to do <em>something</em> other than the default styling. As a designer, I give this two thumbs up. If you’re a lazy designer, then use Bootstrap (but don’t be a lazy designer). <a href="http://foundation.zurb.com/docs/">The Foundation Docs</a> are <strike>well-written and a very complete place to start learning about it</strike> <em>(I’m told by many they’re not that great, so I withdraw this assertion)</em>. Another big reason I prefer Foundation is that it’s written in SASS by default. Which leads me too…</p>
+
+<h3 id="sasscompass18"><a href="http://compass-style.org/">SASS/Compass</a></h3>
+
+<p>CSS preprocessors completely changed my life (at the apex of a period when I arrogantly thought there was nothing new to be learned with CSS. D’oh!). Foundation is written in SASS, which makes it very easy to use with <a href="http://compass-style.org/">SASS/Compass</a>. Compass is a library that extends SASS, though I largely use it because it makes compiling your SASS to CSS very easy and doesn’t require you to learn new syntax. This allows me to write the same CSS I’m used to, and only bring in the more powerful features (like variables, mixins or functions, etc.) when I have a reason to. This satisfies criteria #1: short learning curve, with hidden power I can learn over time. In fact, you can copy over straight CSS into an SCSS file (the extension for SASS/Compass) and it’ll still work.</p>
+
+<p>People who know stuff about things will tell you 1,000 reasons why LESS is better than SASS, or Stylus is better than everything else. I try not to get dragged into discussions like that, and instead focus on the tools that make me more productive (needing to re-read the documentation for every project you start because you can’t settle on a toolset is the definition of unproductive, in case you were wondering). You don’t even <em>have</em> to use the terminal to use Compass if you don’t want to (though seriously, suck it up). <a href="http://mhs.github.io/scout-app/">Scout</a> gives you a GUI alternative, though I’ve personally never used it before. The <a href="http://compass-style.org/reference/compass/">Compass Docs</a> are a decent place to start, as is <a href="http://css-tricks.com/video-screencasts/88-intro-to-compass-sass/">CSS-Tricks</a>.</p>
+
+<h3 id="icon-fonts">Icon Fonts</h3>
+
+<p>I’m currently in love with both <a href="http://geomicons.com/">Geomicons</a> and <a href="http://symbolset.com/icons/pika">SymbolSet Pika</a>. Icon fonts give you the ability to rapidly add icons by simply adding classes to your markup like “icon-home.” Plus, you can control the look with CSS rules in the same way you can control the look of text with CSS (since the icon <strong><em>is</em></strong> text). Additionally, they’re vector based so will look good no matter how pixel-dense the screen. Icon fonts allow you to stay in the code without futzing with image exports (and @2x exports for high-density screens). Overall, this will make you faster. Again, allow me to <a href="http://css-tricks.com/examples/IconFont/">let the illustrious Chris Coyier convince you that you should be using icon fonts</a>.</p>
+
+<p>To build your own icon font from SVG files or pick from some awesome icon font sets, check out <a href="http://icomoon.io/app/">IcoMoon.io</a> or <a href="http://fontello.com/">Fontello</a>. I used IcoMoon to generate the icons for this site.</p>
+
+<h3 id="webfonts">Webfonts</h3>
+
+<p><a href="http://www.google.com/fonts">Google Fonts</a>, <a href="https://typekit.com/fonts">Typekit</a>, and numerous other services give us access to real typography like we’ve never had before. We’re no longer restricted to Georgia, Helvetica, et al. In fact, we’re really only limited to the fonts that are available on these services. Many ridiculously more qualified people than myself have written copious amounts about the state of web typography, so suffice to say, when you start a design, see what’s available before you settle on typography. I like to pick my type by looking at Google Fonts and Typekit and taking a screenshot to mock it up. It’s currently a little tough to get these typefaces loaded on your machine to play around with in Photoshop or Illustrator (though Google Fonts do allow you to download your choices). This is supposed to be changing soon with many major webtype services launching desktop versions.</p>
+
+<h3 id="amazon-s3">Amazon S3</h3>
+
+<p><a href="http://aws.amazon.com/s3/">Amazon S3</a> has made hosting a complete breeze. I no longer have to worry about getting a hosting account set up, or worry about what getting an influx of traffic will do to my hosting bill. S3 will adapt to the needs of your site, and it’s pretty cheap too. For your prototypes that get no attention, it’s basically free to keep them running (aside from your yearly domain registration). Synching your files to S3 is still a bit of a chore, and a topic for another day. The benefits far outweigh the cons, though.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>This toolbox isn’t necessarily the best one out there, but it’s allowed me to transition my janky coding skills to being able to release reasonably stable websites–<em>quickly</em>. There are many alternative configurations, but I’d encourage you to create your own list of <a href="#success-criteria">success criteria</a> for what you want your tools to accomplish. Since web designers are raccoons, it’s easy to get distracted by bright, shiny objects. A list of success criteria will help keep you productive instead of distracted.</p>
+
+<p>Do you have a rapid prototyping toolbox? What does it look like?</p>
+
+
+            
+              <!-- 
+              <div class="post-social col-main">
+                <div class="inner">
+                  <a href="#" class="icon-twitter button"></a><a href="#" class="icon-linkedin button"></a><a href="#" class="icon-facebook button"></a><a href="#" class="icon-google-plus button"></a>
+                </div>
+              </div>
+               -->
+              
+              
+              <ul class="post-social col-main">
+                <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.zachalbert.com&t=" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;" class="icon-facebook button"></a></li>
+                <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.zachalbert.com&text=:%20http%3A%2F%2Fwww.zachalbert.com&via=zachalbert" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;" class="icon-twitter button"></a></li>
+                <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.zachalbert.com" target="_blank" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.URL)); return false;" class="icon-google-plus button"></a></li>
+                <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fwww.zachalbert.com&title=&summary=&source=http%3A%2F%2Fwww.zachalbert.com" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;" class="icon-linkedin button"></a></li>
+                <li><a href="mailto:?subject=&body=:%20http%3A%2F%2Fwww.zachalbert.com" target="_blank" title="Email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;" class="icon-mail-filled button"></a></li>
+              </ul>
+              
+            
+            </div>
+            <hr>
+                        <section>
+            <div class="aside">
+              <div class="inner">
+                <h1 class="hyphenate">Product Design From Scratch</h1>
+                <h2>An occasional bag-o-tricks filled with tips and guides on prototyping your app or website</h2>
+              </div>
+            </div>
+            <p class="top">
+              The product design from scratch newsletter is an occasional email I send with tips and techniques for people who want to learn how to turn their ideas into <strong>real</strong>, <em>usable</em> apps and websites to show to potential customers, investors, or business partners. Prior design experience not required.
+            </p>
+            <div class="col-main">
+              <div id="mc_embed_signup">
+                <form action="//scouthawk.us9.list-manage.com/subscribe/post?u=c4b60de481b3f58170b708c04&amp;id=44da977ada" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div class="row full" id="mc_embed_signup_scroll">
+                    <div class="col-xs-12 no-padding-left">
+                      <label for="mce-EMAIL" class="text-left">Your Email (No spam &mdash; promise)</label>
+                    </div>
+                    <div class="col-sm-8 no-padding-left">
+                      <input type="email" value="" name="EMAIL" class="email no-margin-bottom" id="mce-EMAIL" placeholder="Email Address" required>
+                      <div style="position: absolute; left: -5000px;"><input type="text" name="b_c4b60de481b3f58170b708c04_44da977ada" tabindex="-1" value=""></div>
+                    </div>
+                    <div class="col-sm-4 no-padding-right">
+                      <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button button-primary"><span>Subscribe</span></button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            </section>
+
+            
+            <hr>
+            <div class="post-comments col-main">
+              <div id="disqus_thread"></div>
+              <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'zachalbert'; // required: replace example with your forum shortname
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+              </script>
+              <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+            
+
+          </div>
+        </section>
+      </div>
+      
+      <a href="#" id="about" class="anchor-offset"></a>
+      <section>
+        <div class="row">
+          <div class="post_side">
+            <div class="bio-pic" title="Zac Halbert"></div>
+          </div>
+          <div class="post_main">
+            <p>
+              Hi, I'm Zac Halbert. I'm a digital product designer living in San Francisco, California with my Wife Sheena and sheepdog Rufus. I own independent product design consultancy <a href="http://www.scouthawk.com/">Scout Hawk Product Design Studios</a>.
+            </p>
+            <p>
+              I build user-facing applications and webites for technology companies, especially startups aiming to make a meaingful, positive impact on everyone. My focus is on early stage products, making strategic vision a reality, and advising technical teams in need of creative direction.
+            </p>
+            <p>
+              I've been fortunate enough to work with really talented people at some amazing companies.
+            </p>
+          </div>
+          <div class="nascarification">
+            <span class="nascar samahope" title="SamaHope"></span><span class="nascar samagroup" title="SamaGroup"></span><span class="nascar recurly" title="Recurly"></span><span class="nascar broadly" title="Broadly"></span><span class="nascar sharefund" title="ShareFund"></span><span class="nascar archively" title="Archively"></span><!-- <span class="nascar nomnommer" title="NomNommer"></span> -->
+            <br><br>
+            <a href="#contact"><i class="icon-arrow-down no-underline hover-bounce"></i>&nbsp;&nbsp;&nbsp;Interested in working together?</a>
+          </div>
+          <div class="text-center">
+            
+          </div>  
+        </div>
+      </section>
+
+    </div>
+
+
+    <a href="#" id="contact" class="anchor-offset"></a>
+    <footer class="site-footer" role="contentinfo">
+        
+      <section>
+        <div class="row">
+          <div class="post_side">
+            <h2>Get in touch</h2>
+          </div>
+          <div class="post_main">
+            <form method="post" action="//formspree.io/hi@scouthawk.com" id="contact-form">
+              <input class="float-label" type="text" placeholder="Your name" name="name" id="name">
+              <input class="float-label" type="email" placeholder="Your email" name="email" id="email">
+
+              <textarea class="float-label" placeholder="Your message" name="message" rows="3"></textarea>
+              <input type="checkbox" checked="checked" name="subscribe" id="subscribe"><label for="subscribe">Get occasional, high quality product design tips delivered to your inbox</label>
+              <input type="hidden" name="_subject" value="New contact" />
+              <input type="hidden" name="_next" value="http://www.zachalbert.com/thanks" />
+              <input type="text" name="_gotcha" style="display:none" />
+              <input type="submit" class="button button-primary" value="Send">
+            </form>
+          </div>
+        </div>
+      </section>
+      
+      <section class="page-bottom">
+        <div class="row">
+          <div class="post_side colophon">
+            <p>Built by <span class="vcard author fn"><a href="http://www.zachalbert.com" rel="author">Zac Halbert</a></span>, <span class="updated">2015</span>.<br><a href="https://github.com/zachalbert/zachalbert.com_v6">The code for this site</a> is free to use under the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a>.</p>
+          </div>
+          <div class="post_main">
+            <div class="row full around-xs social-bank">
+              <div class="col-xs2"><a href="https://twitter.com/zachalbert" class="icon-twitter button"></a></div>
+              <div class="col-xs2"><a href="https://dribbble.com/zachalbert" class="icon-dribbble button"></a></div>
+              <div class="col-xs2"><a href="https://www.linkedin.com/in/zachalbert" class="icon-linkedin button"></a></div>
+              <div class="col-xs2"><a href="https://github.com/zachalbert" class="icon-github button"></a></div>
+              <div class="col-xs2"><a href="http://instagram.com/zachalbert" class="icon-instagram button"></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </footer>
+
+    <script src="/js/site.min.js"></script>    
+  </body>
+</html>

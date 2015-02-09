@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Website Redesign, 2015 Edition</title>
+  <meta name="description" content="The personal site of product designer Zac Halbert. UX, design, and code.">
+  <meta name="author" content="Zac Halbert">
+  <link rel="canonical" href="http://www.zachalbert.com/website-redesign-2015/" />
+
+    <meta property="og:locale" content="en_US">    <meta property="og:type" content="article">  <meta property="og:title" content="Website Redesign, 2015 Edition">        <meta property="og:url" content="http://www.zachalbert.com/website-redesign-2015/">      <meta property="article:published_time" content="2015-01-15T00:00:00-08:00">      
+  <meta property="fb:admins" content="YOUR_FB_USER_ID" />
+  <meta property="fb:app_id" content="YOUR_FB_APP_ID"/>
+
+  <script src="//use.typekit.net/lsi2hge.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+  
+  <link href="/css/style.css" rel="stylesheet">
+  <link rel="shortcut icon" href="/favicon.ico">
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.1/html5shiv.min.js"></script>
+  <![endif]-->
+  </head>
+
+  <body>
+    
+    <header class="site-header galaxy" role="banner" id="top">
+        
+      <div id="star-field"></div>
+      
+      <div class="orrry-description">
+        <div class="row middle-xs">
+          <div class="col-xs-offset-7 col-xs-5 animated description-holder">
+            <h1>Orrery</h1>
+            <p>
+              This scale model of our solar system is an experiment in CSS animation.
+              Planetary rotation data was borrowed from 
+              <a href="http://nssdc.gsfc.nasa.gov/planetary/factsheet/">nasa.gov</a>.
+              <a href="/orrery">Learn more about the orrery here.</a>
+            </p>
+            <div class="inline-block">
+              <a href="#" class="icon-pause-filled button pause-animation" title="If your computer isn't particularly beefy, the constant animation might cause lag. Pause the animation here for a smoother experience."></a><a href="https://github.com/zachalbert/zachalbert.com_v6#the-orrery" class="icon-github button"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="solar-system">
+        
+        <div class="eris" id="eris">
+          <div class="label"><span class="symbol">E</span>Eris</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="pluto" id="pluto">
+          <div class="label"><span class="symbol">♇</span>Pluto</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+        
+        <div class="neptune" id="neptune">
+          <div class="label"><span class="symbol">♅</span>Neptune</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="uranus" id="uranus">
+          <div class="label"><span class="symbol">♃</span>Uranus</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+        
+        <div class="saturn" id="saturn">
+          <div class="label"><span class="symbol">♄</span>Saturn</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="jupiter" id="jupiter">
+          <div class="label"><span class="symbol">♃</span>Jupiter</div>
+          <div class="orbit">
+            <div class="planet">
+              <div class="satellite s_1"></div>
+              <div class="satellite s_2"></div>
+              <div class="satellite s_3"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mars" id="mars">
+          <div class="label"><span class="symbol">♂</span>Mars</div>
+          <div class="orbit">
+            <div class="planet">
+              <div class="satellite s_1"></div>
+              <div class="satellite s_2"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="earth" id="earth">
+          <div class="label"><span class="symbol">♁</span>Earth</div>
+          <div class="orbit">
+            <div class="planet">
+              <div class="satellite s_1"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="venus" id="venus">
+          <div class="label"><span class="symbol">♀</span>Venus</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="mercury" id="mercury">
+          <div class="label"><span class="symbol">☿</span>Mercury</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+        <div class="sun" id="sun">
+          <div class="label"><span class="symbol">☉</span>Sun</div>
+          <div class="orbit">
+            <div class="planet"></div>
+          </div>
+        </div>
+
+      </div>
+
+    </header>
+    
+    <div class="anchor-offset" id="page"></div>
+    <div class="site-main">
+      
+      <div class="nav-wrapper">
+        <a href="http://www.zachalbert.com" class="logo" title="Zac Halbert">
+          <img src="/images/zachalbert-logo.svg" width="192" height="198" alt="ZacHalbert.com">
+        </a>
+        <nav class="site-nav" role="navigation">
+          <div class="row middle-xs">
+            <div class="col-xs-12 col-sm-5 col-md-4 link-to-top-wrap">
+              <a href="#page" class="link-to-top icon-arrow-up button"></a>
+            </div>
+            <div class="col-xs-12 col-sm-7 col-md-8 nav-wrap">
+              <div class="link-bank">
+                <a href="/work">Work</a><a href="/">Blog</a><a href="#about" class="about internal-link">About</a><a href="#contact" class="contact internal-link">Contact</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div class="mask">
+          <div class="mask-inner">
+
+            <div class="site-nav-bg">
+              <div class="logo-bg">
+                <img src="/images/zachalbert-logo-bg.svg" width="192" height="198" alt="ZacHalbert.com">
+              </div>            
+            </div>
+
+          </div>
+        </div>
+              
+      </div>
+
+      <div class="content">
+                <section>
+          <div class="post post-single">
+            <header class="aside">
+              <div class="inner">
+                <h1 class="post-title">Website Redesign, 2015 Edition</h1>
+                <h2>Static site generated using gulp, jekyll, and SCSS, hosted on github.</h2>
+              </div>
+            </header>
+
+            <time datetime="2014-11" class="post-date">January 2015</time>
+            <div class="body">
+              <p>Every other year I go through a molting cycle where I shed my old website and build something new. With each iteration, I try to make it a little cleaner, a little easier to use. It’s an opportunity to re-examine my toolbox, and experiment with things I’ve been meaning to try. One of the best discoveries this cycle has been a really fast, powerful setup for building static marketing or blog sites.</p>
+
+<p>It uses jekyll for the blog engine, wrapped inside gulp for handling stuff like minification and live browser reload, and the end result is a directory of lightning fast vanilla HTML. By deploying to github pages, the tedium surrounding just getting a website live is gone. This is the <em>perfect</em> setup for prototyping websites and landing pages. None of these tools are particularly new, but the speed and ease of putting a real website online shocked me.</p>
+
+<p>You can follow along if you want to duplicate my setup. It should be easy enough to use for designers who aren’t afraid of a bit of command line.</p>
+
+<!-- more -->
+
+<h2 id="out-with-the-old">Out with the old</h2>
+
+<p>This is v5 of my site (2013 edition), which you can <a href="https://web.archive.org/web/20140807023329/http://www.zachalbert.com/">check out on archive.com</a> if you’re bored.</p>
+
+<p><img src="/images/zhd-v5.jpg" width="600" height="300" class="img-border" /></p>
+
+<h2 id="the-design">The design</h2>
+
+<p>Since personal sites have very few design or technical constraints, I wanted to experiment with some new grid systems. I used <a href="http://flexboxgrid.com/">flex box grid system</a>, which I’d highly recommend. It’s worth mentioning that <a href="http://foundation.zurb.com/apps/">Foundation for Apps</a> was recently released, which also uses a flexbox grid system — though I personally haven’t tried it yet.</p>
+
+<p>Working with flexbox was not all that different from working with a standard bootstrap or foundation grid system, except the grid blocks tend to have slightly more sensical behavior than I’m familiar with. Because I’m used to the old way, there’s a bit of a learning curve to pick it up — but it’s hardly noticeable.</p>
+
+<p>Typographically speaking, I chose <a href="https://typekit.com/fonts/abril-text">Abril Text</a> for body copy and <a href="https://typekit.com/fonts/abril-titling">Abril Titling</a> for headlines. Its history in editorial work and tasty italic lean complimented my odd 2/3 layout and matched the whitespacey look I was going for. I used <a href="http://www.type-scale.com">Type Scale</a> to build a font-size scale, and used that same scale to create strips of ‘lead’ spacers (an homage to moveable lead type). All block-level elements such as <code>section</code> and <code>p</code> tags receive either one, two, or three lead on the bottom only to create a satisfying vertical rhythm. The net result is that multiple columns of text will <em>always</em> be baseline-aligned since the measurements are based on the same building blocks.</p>
+
+<div class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="lineno"> 1</span> <span class="c1">////// Type Scale //////</span>
+<span class="lineno"> 2</span> 
+<span class="lineno"> 3</span> <span class="nv">$scale</span><span class="o">:</span> <span class="mi">1</span><span class="mf">.618</span><span class="p">;</span>
+<span class="lineno"> 4</span> <span class="nv">$font-size</span><span class="o">:</span> <span class="mi">17</span><span class="kt">px</span><span class="p">;</span>
+<span class="lineno"> 5</span> 
+<span class="lineno"> 6</span> <span class="c1">// All spacing is based on this variable</span>
+<span class="lineno"> 7</span> <span class="nv">$line-height</span><span class="o">:</span> <span class="nf">round</span><span class="p">(</span><span class="nv">$font-size</span> <span class="o">*</span> <span class="nv">$scale</span><span class="p">);</span>
+<span class="lineno"> 8</span> 
+<span class="lineno"> 9</span> <span class="c1">// type-scale.com</span>
+<span class="lineno">10</span> <span class="nv">$font-size-05</span><span class="o">:</span>  <span class="mi">0</span><span class="mf">.618</span><span class="kt">em</span><span class="p">;</span>
+<span class="lineno">11</span> <span class="nv">$font-size-1</span><span class="o">:</span>   <span class="nv">$font-size</span><span class="p">;</span>
+<span class="lineno">12</span> <span class="nv">$font-size-2</span><span class="o">:</span>   <span class="mi">1</span><span class="mf">.618</span><span class="kt">em</span><span class="p">;</span>
+<span class="lineno">13</span> <span class="nv">$font-size-3</span><span class="o">:</span>   <span class="mi">2</span><span class="mf">.618</span><span class="kt">em</span><span class="p">;</span>
+<span class="lineno">14</span> <span class="nv">$font-size-4</span><span class="o">:</span>   <span class="mi">4</span><span class="mf">.236</span><span class="kt">em</span><span class="p">;</span>
+<span class="lineno">15</span> 
+<span class="lineno">16</span> <span class="c1">// Strips of lead - all block level elements get margin bottom only</span>
+<span class="lineno">17</span> <span class="nv">$lead-half</span><span class="o">:</span>        <span class="nv">$line-height</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span>
+<span class="lineno">18</span> <span class="nc">.lead-half</span>       <span class="p">{</span> <span class="na">margin-bottom</span><span class="o">:</span> <span class="nv">$line-height</span> <span class="o">/</span> <span class="mi">2</span><span class="p">;</span> <span class="p">}</span>
+<span class="lineno">19</span> 
+<span class="lineno">20</span> <span class="nv">$lead-single</span><span class="o">:</span>      <span class="nv">$line-height</span><span class="p">;</span>
+<span class="lineno">21</span> <span class="nc">.lead-single</span>     <span class="p">{</span> <span class="na">margin-bottom</span><span class="o">:</span> <span class="nv">$line-height</span><span class="p">;</span> <span class="p">}</span>
+<span class="lineno">22</span> 
+<span class="lineno">23</span> <span class="nv">$lead-double</span><span class="o">:</span>      <span class="nv">$line-height</span> <span class="o">*</span> <span class="mi">2</span><span class="p">;</span>
+<span class="lineno">24</span> <span class="nc">.lead-double</span>     <span class="p">{</span> <span class="na">margin-bottom</span><span class="o">:</span> <span class="nv">$line-height</span> <span class="o">*</span> <span class="mi">2</span><span class="p">;</span> <span class="p">}</span>
+<span class="lineno">25</span> 
+<span class="lineno">26</span> <span class="nv">$lead-triple</span><span class="o">:</span>      <span class="nv">$line-height</span> <span class="o">*</span> <span class="mi">3</span><span class="p">;</span>
+<span class="lineno">27</span> <span class="nc">.lead-triple</span>     <span class="p">{</span> <span class="na">margin-bottom</span><span class="o">:</span> <span class="nv">$line-height</span> <span class="o">*</span> <span class="mi">3</span><span class="p">;</span> <span class="p">}</span>
+<span class="lineno">28</span> 
+<span class="lineno">29</span> <span class="nv">$lead-quadruple</span><span class="o">:</span>   <span class="nv">$line-height</span> <span class="o">*</span> <span class="mi">4</span><span class="p">;</span>
+<span class="lineno">30</span> <span class="nc">.lead-quadruple</span>  <span class="p">{</span> <span class="na">margin-bottom</span><span class="o">:</span> <span class="nv">$line-height</span> <span class="o">*</span> <span class="mi">4</span><span class="p">;</span> <span class="p">}</span>
+<span class="lineno">31</span> 
+<span class="lineno">32</span> <span class="nv">$lead-quintuple</span><span class="o">:</span>   <span class="nv">$line-height</span> <span class="o">*</span> <span class="mi">5</span><span class="p">;</span>
+<span class="lineno">33</span> <span class="nc">.lead-quintuple</span>  <span class="p">{</span> <span class="na">margin-bottom</span><span class="o">:</span> <span class="nv">$line-height</span> <span class="o">*</span> <span class="mi">5</span><span class="p">;</span> <span class="p">}</span></code></pre></div>
+
+<h2 id="gulpfilejs-amp-automation">Gulpfile.js &amp; Automation</h2>
+
+<p>Begin by either <a href="https://github.com/zachalbert/zachalbert.com_v6/fork">forking the repo for this website</a> or by replecating this site structure. While there is a certain amount of flexibility, <a href="http://jekyllrb.com/docs/structure/">jekyll dictates a certain directory structure</a>. (Jekyll is the tool that makes running a static blog easy by turning markdown files into html files.) I’ve included links to example files you can copy and customize on your own.</p>
+
+<pre class="highlight">
+|- <strong>_posts</strong>
+|--- yyyy-mm-dd-post-title.md (<a href="https://gist.githubusercontent.com/zachalbert/87465e43523e746b7e18/raw/f0c8496f3984f423886775cc8de20b4acee4935d/yyyy-mm-dd-post-title.md">example</a>)
+|- <strong>_layouts</strong>
+|--- default.html (<a href="https://gist.github.com/zachalbert/f5b5636ff8500387d17a">example</a>)
+|- <strong>_site</strong> (<em>leave empty &mdash; your static site will be generated to this directory</em>)
+|- _config.yml (<a href="https://github.com/zachalbert/zachalbert.com_v6/blob/master/_config.yml">example</a>)
+|- index.html (<em>start working here</em>)
+|- gulpfile.js (<a href="https://github.com/zachalbert/zachalbert.com_v6/blob/master/gulpfile.js">example</a>)
+|- package.json (<a href="https://github.com/zachalbert/zachalbert.com_v6/blob/master/package.json">example</a>)
+|- .gitignore (<a href="https://github.com/zachalbert/zachalbert.com_v6/blob/master/.gitignore">example</a>)
+</pre>
+
+<p>Though not required, you should also run both <code>git init</code> and <code>bower init</code> from the command line in the root of your site directory. The first command will start a local git repo which you can later deploy to github pages to make your site public easily. Use the bower command if you’re interested in using bower to manage javascript dependencies.</p>
+
+<p>Setup can be tough to get used to, but once it’s all working, a single command: <code>npm start</code> will start a chain of processes that installs and updates any missing dependencies, rebuilds and watches <em>all</em> of your files for changes, starts a local server with livereload and CSS inject to show your code changes realtime in the browser, rebuilds the sitemap, <em>AND</em> minifies and concatenates CSS and JS files for production.</p>
+
+<h2 id="deploying-to-github-pages">Deploying to Github pages</h2>
+
+<p>Once you have a local site you’re happy with, deploying it to github pages is quite simple.</p>
+
+<p>The first step is making sure you have created a repository on github.com and <a href="https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/">have pushed your local repository to it</a>. Once done, you’ll be able to follow <a href="https://pages.github.com/">this helpful guide on github page’s own site</a>.</p>
+
+<p>Once everything is working, notice there is a block in <code>gulpfile.js</code> that automates the github pages deploy process.</p>
+
+<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="lineno">1</span> <span class="c1">// Deploy to github gulp-gh-pages</span>
+<span class="lineno">2</span> <span class="nx">gulp</span><span class="p">.</span><span class="nx">task</span><span class="p">(</span><span class="s1">&#39;deploy&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;jekyll-build&#39;</span><span class="p">],</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+<span class="lineno">3</span>   <span class="k">return</span> <span class="nx">gulp</span><span class="p">.</span><span class="nx">src</span><span class="p">(</span><span class="s1">&#39;./_site/**/*&#39;</span><span class="p">)</span>
+<span class="lineno">4</span>     <span class="p">.</span><span class="nx">pipe</span><span class="p">(</span><span class="nx">deploy</span><span class="p">({</span>
+<span class="lineno">5</span>       <span class="nx">remoteUrl</span><span class="o">:</span> <span class="s2">&quot;git@github.com:USERNAME/REPO.git&quot;</span><span class="p">,</span>
+<span class="lineno">6</span>       <span class="nx">branch</span><span class="o">:</span> <span class="s2">&quot;master&quot;</span>
+<span class="lineno">7</span>     <span class="p">}));</span>
+<span class="lineno">8</span> <span class="p">});</span></code></pre></div>
+
+<p>Once everything is working, updating your blog is easy. You just run <code>npm start</code> to begin your static site generator and local server, then add a new markdown file to the <code>_posts</code> directory. You’ll be able to watch your site regenerate every time you make changes to the new post. When you’re satisfied, commit your changes and run <code>gulp deploy</code> to push everything live.</p>
+
+<p><em>Happy building!</em></p>
+
+            
+              <!-- 
+              <div class="post-social col-main">
+                <div class="inner">
+                  <a href="#" class="icon-twitter button"></a><a href="#" class="icon-linkedin button"></a><a href="#" class="icon-facebook button"></a><a href="#" class="icon-google-plus button"></a>
+                </div>
+              </div>
+               -->
+              
+              
+              <ul class="post-social col-main">
+                <li><a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.zachalbert.com&t=" target="_blank" onclick="window.open('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(document.URL) + '&t=' + encodeURIComponent(document.URL)); return false;" class="icon-facebook button"></a></li>
+                <li><a href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.zachalbert.com&text=:%20http%3A%2F%2Fwww.zachalbert.com&via=zachalbert" target="_blank" title="Tweet" onclick="window.open('https://twitter.com/intent/tweet?text=' + encodeURIComponent(document.title) + ':%20'  + encodeURIComponent(document.URL)); return false;" class="icon-twitter button"></a></li>
+                <li><a href="https://plus.google.com/share?url=http%3A%2F%2Fwww.zachalbert.com" target="_blank" title="Share on Google+" onclick="window.open('https://plus.google.com/share?url=' + encodeURIComponent(document.URL)); return false;" class="icon-google-plus button"></a></li>
+                <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fwww.zachalbert.com&title=&summary=&source=http%3A%2F%2Fwww.zachalbert.com" target="_blank" title="Share on LinkedIn" onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(document.URL) + '&title=' +  encodeURIComponent(document.title)); return false;" class="icon-linkedin button"></a></li>
+                <li><a href="mailto:?subject=&body=:%20http%3A%2F%2Fwww.zachalbert.com" target="_blank" title="Email" onclick="window.open('mailto:?subject=' + encodeURIComponent(document.title) + '&body=' +  encodeURIComponent(document.URL)); return false;" class="icon-mail-filled button"></a></li>
+              </ul>
+              
+            
+            </div>
+            <hr>
+                        <section>
+            <div class="aside">
+              <div class="inner">
+                <h1 class="hyphenate">Product Design From Scratch</h1>
+                <h2>An occasional bag-o-tricks filled with tips and guides on prototyping your app or website</h2>
+              </div>
+            </div>
+            <p class="top">
+              The product design from scratch newsletter is an occasional email I send with tips and techniques for people who want to learn how to turn their ideas into <strong>real</strong>, <em>usable</em> apps and websites to show to potential customers, investors, or business partners. Prior design experience not required.
+            </p>
+            <div class="col-main">
+              <div id="mc_embed_signup">
+                <form action="//scouthawk.us9.list-manage.com/subscribe/post?u=c4b60de481b3f58170b708c04&amp;id=44da977ada" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                  <div class="row full" id="mc_embed_signup_scroll">
+                    <div class="col-xs-12 no-padding-left">
+                      <label for="mce-EMAIL" class="text-left">Your Email (No spam &mdash; promise)</label>
+                    </div>
+                    <div class="col-sm-8 no-padding-left">
+                      <input type="email" value="" name="EMAIL" class="email no-margin-bottom" id="mce-EMAIL" placeholder="Email Address" required>
+                      <div style="position: absolute; left: -5000px;"><input type="text" name="b_c4b60de481b3f58170b708c04_44da977ada" tabindex="-1" value=""></div>
+                    </div>
+                    <div class="col-sm-4 no-padding-right">
+                      <button type="submit" name="subscribe" id="mc-embedded-subscribe" class="button button-primary"><span>Subscribe</span></button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            </section>
+
+            
+            <hr>
+            <div class="post-comments col-main">
+              <div id="disqus_thread"></div>
+              <script type="text/javascript">
+                /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                var disqus_shortname = 'zachalbert'; // required: replace example with your forum shortname
+
+                /* * * DON'T EDIT BELOW THIS LINE * * */
+                (function() {
+                  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                  dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+              </script>
+              <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+            
+
+          </div>
+        </section>
+      </div>
+      
+      <a href="#" id="about" class="anchor-offset"></a>
+      <section>
+        <div class="row">
+          <div class="post_side">
+            <div class="bio-pic" title="Zac Halbert"></div>
+          </div>
+          <div class="post_main">
+            <p>
+              Hi, I'm Zac Halbert. I'm a digital product designer living in San Francisco, California with my Wife Sheena and sheepdog Rufus. I own independent product design consultancy <a href="http://www.scouthawk.com/">Scout Hawk Product Design Studios</a>.
+            </p>
+            <p>
+              I build user-facing applications and webites for technology companies, especially startups aiming to make a meaingful, positive impact on everyone. My focus is on early stage products, making strategic vision a reality, and advising technical teams in need of creative direction.
+            </p>
+            <p>
+              I've been fortunate enough to work with really talented people at some amazing companies.
+            </p>
+          </div>
+          <div class="nascarification">
+            <span class="nascar samahope" title="SamaHope"></span><span class="nascar samagroup" title="SamaGroup"></span><span class="nascar recurly" title="Recurly"></span><span class="nascar broadly" title="Broadly"></span><span class="nascar sharefund" title="ShareFund"></span><span class="nascar archively" title="Archively"></span><!-- <span class="nascar nomnommer" title="NomNommer"></span> -->
+            <br><br>
+            <a href="#contact"><i class="icon-arrow-down no-underline hover-bounce"></i>&nbsp;&nbsp;&nbsp;Interested in working together?</a>
+          </div>
+          <div class="text-center">
+            
+          </div>  
+        </div>
+      </section>
+
+    </div>
+
+
+    <a href="#" id="contact" class="anchor-offset"></a>
+    <footer class="site-footer" role="contentinfo">
+        
+      <section>
+        <div class="row">
+          <div class="post_side">
+            <h2>Get in touch</h2>
+          </div>
+          <div class="post_main">
+            <form method="post" action="//formspree.io/hi@scouthawk.com" id="contact-form">
+              <input class="float-label" type="text" placeholder="Your name" name="name" id="name">
+              <input class="float-label" type="email" placeholder="Your email" name="email" id="email">
+
+              <textarea class="float-label" placeholder="Your message" name="message" rows="3"></textarea>
+              <input type="checkbox" checked="checked" name="subscribe" id="subscribe"><label for="subscribe">Get occasional, high quality product design tips delivered to your inbox</label>
+              <input type="hidden" name="_subject" value="New contact" />
+              <input type="hidden" name="_next" value="http://www.zachalbert.com/thanks" />
+              <input type="text" name="_gotcha" style="display:none" />
+              <input type="submit" class="button button-primary" value="Send">
+            </form>
+          </div>
+        </div>
+      </section>
+      
+      <section class="page-bottom">
+        <div class="row">
+          <div class="post_side colophon">
+            <p>Built by <span class="vcard author fn"><a href="http://www.zachalbert.com" rel="author">Zac Halbert</a></span>, <span class="updated">2015</span>.<br><a href="https://github.com/zachalbert/zachalbert.com_v6">The code for this site</a> is free to use under the <a href="http://opensource.org/licenses/MIT" target="_blank">MIT license</a>.</p>
+          </div>
+          <div class="post_main">
+            <div class="row full around-xs social-bank">
+              <div class="col-xs2"><a href="https://twitter.com/zachalbert" class="icon-twitter button"></a></div>
+              <div class="col-xs2"><a href="https://dribbble.com/zachalbert" class="icon-dribbble button"></a></div>
+              <div class="col-xs2"><a href="https://www.linkedin.com/in/zachalbert" class="icon-linkedin button"></a></div>
+              <div class="col-xs2"><a href="https://github.com/zachalbert" class="icon-github button"></a></div>
+              <div class="col-xs2"><a href="http://instagram.com/zachalbert" class="icon-instagram button"></a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </footer>
+
+    <script src="/js/site.min.js"></script>    
+  </body>
+</html>
