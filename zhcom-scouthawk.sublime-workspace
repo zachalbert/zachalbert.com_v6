@@ -1,0 +1,740 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"remo",
+				"removeClass"
+			],
+			[
+				"filter",
+				"filterByExtension"
+			],
+			[
+				"update",
+				"updateOnScroll"
+			],
+			[
+				"resize",
+				"resizeTimer"
+			],
+			[
+				"delete",
+				"deleteButton"
+			],
+			[
+				"lead",
+				"lead-single"
+			],
+			[
+				"zi",
+				"z-index: "
+			],
+			[
+				"locals",
+				"localhost_folder"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"repo",
+				"Package Control: Add Repository"
+			],
+			[
+				"repos",
+				"Package Control: Add Repository"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"reint",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"package",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"pack",
+				"Package Control: Disable Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sassbe",
+				"SassBeautify"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_layouts",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_site/js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/thanks",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/work",
+		"/Users/zac/Dropbox/www/scouthawk/_layouts"
+	],
+	"file_history":
+	[
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_mixins.scss",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes/subscribe.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_main.scss",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2015-01-10-orrery.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-03-24-learning-to-ship-quicker.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2015-02-02-ten-million-smiles.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2015-02-10-how-to-pick-a-design-specialty.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_typography.scss",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/work/index.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2015-01-15-website-redesign-2015.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes/social-likes.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes/_head.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_js/main.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_js/physicsjs-main.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-02-14-lean-ux-san-francisco-logo-contest.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_layouts/post.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-11-27-infographic-global-surgery-gap.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes/contact.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_forms.scss",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_breakpoints.scss",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/index.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes/about.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_layouts/default.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/thanks/index.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_layouts/_footer.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_layouts/_head.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_orrry.scss",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_variables.scss",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes/orrry.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_icons.scss",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes/top-nav.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2015-02-10-product-design-vs-ux-design.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_highlight.scss",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/mout/lang/isNull.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2014-11-04-what-i-learned-while-rapid-prototyping-in-a-refugee-camp.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2014-10-28-3-rules-for-better-design-critique-a-cheatsheet-for-the-whole-team.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-10-27-why-i-joined-a-non-profit-startup.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-07-05-refugees-united-hackathon.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-06-20-rapid-prototyping-toolbox-for-designers.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-05-03-collaborative-design-lean-ux-is-haaaard.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-04-25-masking-complexity-through-progressive-disclosure.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-04-13-jpg-images-with-png-transparency.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-01-10-joining-recurly.md",
+		"/Users/zac/Dropbox/www/scouthawk/README.md",
+		"/Users/zac/Dropbox/www/scouthawk/gulpfile.js",
+		"/Users/zac/Dropbox/www/scouthawk/CNAME",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2015-02-10-difference-between-product-design-and-ux.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_config.yml",
+		"/Users/zac/Dropbox/www/scouthawk/LICENSE",
+		"/Users/zac/Dropbox/www/scouthawk/_scss/_forms.scss",
+		"/Users/zac/Dropbox/www/scouthawk/_layouts/default.html",
+		"/Users/zac/Dropbox/www/scouthawk/_scss/_main.scss",
+		"/Users/zac/Dropbox/www/scouthawk/_scss/_typography.scss",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/gulpfile.js",
+		"/Users/zac/Dropbox/www/scouthawk/index.html",
+		"/Users/zac/Dropbox/www/scouthawk/_config.yml",
+		"/Users/zac/Dropbox/www/scouthawk/_scss/_breakpoints.scss",
+		"/Users/zac/Dropbox/www/scouthawk/_scss/style.scss",
+		"/Users/zac/Dropbox/www/scouthawk/_scss/_variables.scss",
+		"/Users/zac/Dropbox/www/scouthawk/404.html",
+		"/Users/zac/Dropbox/www/scouthawk/bower.json",
+		"/Users/zac/Dropbox/www/scouthawk/package.json",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/gulp/node_modules/liftoff/lib/parse_options.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/package.json",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/404.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/style.scss",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_site/js/site.min.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_offcanvas.scss",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_plugins/share_buttons.rb",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes/sharing.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-04-06-auto-blog-dribbble-shots-to-wordpress.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_site/3-rules-for-better-design-critique-a-cheatsheet-for-the-whole-team/index.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_js/0jquery.hypher.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/README.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/browser-sync/node_modules/cli-color/node_modules/memoizee/lib/registered-extensions.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2015-01-01-yay.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/browser-sync/node_modules/cli-color/node_modules/es5-ext/test/number/to-pos-integer.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/browser-sync/node_modules/cli-color/node_modules/es5-ext/number/to-pos-integer.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_plugins/regex_filter.rb",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/gulp-concat/node_modules/concat-with-sourcemaps/node_modules/source-map/build/suffix-utils.jsm",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/gulp-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/browser-sync/node_modules/browser-sync-client/.idea/workspace.xml",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/mout/date/weekOfTheYear.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/bower_components/jQuery/src/wrap.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/coveralls/test/handleInput.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/bower-registry-client/node_modules/request/tests/test-hawk.js",
+		"/Users/zac/Dropbox/www/scouthawk/posts/_definition-experiment.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_js/1en-us.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_animation.scss",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/insight/node_modules/os-name/node_modules/.bin/osx-release",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_js/hyphenator_loader.js",
+		"/Users/zac/Dropbox/Zac Halbert Design/Scout Hawk/Clients/TriKro/Branding/trikro.scss",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2014-12-08-hope-cards-launches.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2014-10-28-3-rules-for-better-design-critique.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/browser-sync/node_modules/sinon/lib/sinon/typeOf.js",
+		"/Users/zac/Dropbox/www/scouthawk/posts/scheduler-monday.md",
+		"/Users/zac/Dropbox/www/scouthawk/posts/file-hierarchy.md",
+		"/Users/zac/Dropbox/www/scouthawk/posts/mailing-list.md",
+		"/Users/zac/Dropbox/www/scouthawk/posts/social-media-strategy.md",
+		"/Users/zac/Dropbox/www/scouthawk/posts/event-tracking.md",
+		"/Users/zac/Dropbox/www/scouthawk/posts/funnel-stage-1.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_layouts/project.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2014-11-23-yay.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2014-12-04-project-title.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/main-bower-files/node_modules/minimatch/test/brace-expand.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/glob/test/bash-results.json",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/bower.json",
+		"/Users/zac/Dropbox/www/how-long/app/bower_components/bootstrap/grunt/bs-lessdoc-parser.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/gulp-gh-pages/node_modules/gift/lib/blob.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/gulp/node_modules/marked-man/test/files/blockquotes.man",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2014-04-20-welcome-to-jekyll.markdown",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/browser-sync/node_modules/gulp-jscs/node_modules/jscs/node_modules/colors/ReadMe.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/grunt/node_modules/colors/ReadMe.md",
+		"/Users/zac/Dropbox/www/how-long/node_modules/main-bower-files/node_modules/colors/ReadMe.md",
+		"/Users/zac/Dropbox/www/how-long/node_modules/http-server/node_modules/colors/ReadMe.md",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/main-bower-files/node_modules/colors/ReadMe.md",
+		"/Users/zac/Dropbox/www/how-long/scss/_mixins.scss",
+		"/Users/zac/Dropbox/www/how-long/node_modules/gulp-sass/test/scss/mixins.scss",
+		"/Users/zac/Dropbox/www/how-long/node_modules/gulp-sass/test/ref/mixins.css",
+		"/Users/zac/Dropbox/www/how-long/app/bower_components/bootstrap/less/mixins.less",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/gulp-sass/test/scss/mixins.scss",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/gulp-sass/test/ref/mixins.css",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/mout/object/mixIn.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/mout/number/MAX_INT.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/mout/date/totalDaysInYear.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/bower_components/floatlabel.js/floatlabels.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/bower_components/JVFloat/jvfloat.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/js/site.min.js"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"/Users/zac/Dropbox/www/zachalbert.com_v6/",
+			"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss",
+			"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/",
+			"/Users/zac/Dropbox/www/zachalbert.com_v6/",
+			"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts",
+			"/Users/zac/Dropbox/www/scouthawk",
+			"/Users/zac/Dropbox/www/zachalbert.com_v6/",
+			"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss",
+			"/Users/zac/Dropbox/www/zachalbert.com_v6/",
+			"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss",
+			"/Users/zac/Dropbox/www/samahope/goldstar",
+			"/Users/zac/Dropbox/www/samahope/goldstart",
+			"/Users/zac/Dropbox/www/samahope/samahope.org/wp-content/themes/samahope-underscore",
+			"/Users/zac/Dropbox/www/samahope/samahope.org/wp-content/themes/samahope-underscore/scss"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"iframe",
+			"github.com",
+			"&",
+			"hyphen",
+			"break-word",
+			"work-break",
+			"hyphenate",
+			"post-titl",
+			"portfo",
+			".button",
+			"top",
+			"section",
+			"post",
+			".post",
+			"post",
+			"iframe {",
+			"ifram",
+			"iframe",
+			"{% endhighlight %}",
+			"$speedLimit",
+			"highligh",
+			"figcap",
+			"iframe",
+			"nav-wrap {\n  //   @extend .col-xs-7;\n  //   @extend .col-xs-offset-4;\n  // }",
+			"nav-wrap",
+			"link-bank",
+			"h2",
+			"inner",
+			"post_side",
+			".row",
+			"row",
+			"ul,",
+			"ul",
+			"ul ",
+			"ul",
+			"<span class=\"anchor-offset\" id=\"more\"></span>",
+			"<!-- more -->",
+			"css",
+			"300",
+			"foot",
+			"color-footer",
+			"speed",
+			"gulp",
+			"ol ",
+			"border-radius",
+			"border",
+			"twitter",
+			"padding-right",
+			"blockq",
+			"blockquot",
+			"link-bank",
+			"link",
+			"link-bank",
+			"st-",
+			"separat",
+			"button",
+			"link-bank",
+			"width",
+			"post_side",
+			"+ 2",
+			"https",
+			"post_sid",
+			"link-bank",
+			"col-no-padding",
+			"link-bank",
+			"link-to-top",
+			"screen-min-width",
+			"zachalbert.com",
+			"founders",
+			"button",
+			"github",
+			"</b>",
+			"<b>",
+			"site-footer",
+			"E7E0B7",
+			"  \n",
+			"font-size-small-1",
+			"post_main-content",
+			"$font-size-small-1",
+			"border",
+			"cursor",
+			"float",
+			"social-bank",
+			"social",
+			"social-bank",
+			"section",
+			"first",
+			"url",
+			"pre",
+			"post.title",
+			"page.title",
+			"playGod",
+			"form",
+			"h2",
+			"post-date",
+			"button",
+			"h2",
+			"img",
+			"figure",
+			"full",
+			"$speed",
+			"code",
+			"$order",
+			"playGod",
+			"color-border",
+			"float: righ",
+			"label",
+			"orrry",
+			"orrr",
+			"label",
+			"paused",
+			"orrry-description",
+			"description",
+			"sessionStorage",
+			"top",
+			"h1",
+			"pattern",
+			"post_side",
+			"}\n",
+			"post-side",
+			"site-main",
+			"about",
+			"link-bank",
+			"separat",
+			"color-text",
+			"button",
+			"scale",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"&amp;",
+			"figure iframe {",
+			"{% endhighlight %}\n<div class=\"note\">\n  Full code <a href=\"https://github.com/zachalbert/zachalbert.com_v6#the-orrery\">available on github</a>.\n</div>",
+			"$speed",
+			"<div class=\"anchor-offset\" id=\"more\"></div>",
+			"<!-- more -->\n<span class=\"anchor-offset\" id=\"more\"></span>",
+			"ocn-",
+			"no-padding",
+			"</strong>",
+			"<strong>",
+			"$font-size-05",
+			"buildPlanet",
+			"$speedLimit",
+			"$orbitPos",
+			"localStorage",
+			"aside",
+			".aside",
+			"topOfPage",
+			"velocity",
+			"quote: \"\"\n    key:",
+			"$color-link",
+			"    key",
+			"location: \"\"\nkey",
+			" \"?\"",
+			"a",
+			"hopecards",
+			"1292",
+			"1232",
+			"1222",
+			"1192",
+			"1180",
+			"'",
+			"&mdash;",
+			"&rsquo;",
+			"!$E$12), 1)*2)",
+			"!$E$3), 1)*2)",
+			"('donor-data-calculations'!$F$3 * 2)+sum('donor-data-calculations'!$F$4:$F$16)",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "zhcom-scouthawk.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"subsc",
+				"zachalbert.com_v6/_includes/subscribe.html"
+			],
+			[
+				"ind",
+				"zachalbert.com_v6/index.html"
+			],
+			[
+				"pos",
+				"zachalbert.com_v6/_layouts/post.html"
+			],
+			[
+				"post",
+				"zachalbert.com_v6/_layouts/post.html"
+			],
+			[
+				"su",
+				"zachalbert.com_v6/_includes/subscribe.html"
+			],
+			[
+				"def",
+				"zachalbert.com_v6/_layouts/default.html"
+			],
+			[
+				"sub",
+				"zachalbert.com_v6/_includes/subscribe.html"
+			],
+			[
+				"top-",
+				"zachalbert.com_v6/_includes/top-nav.html"
+			],
+			[
+				"top",
+				"zachalbert.com_v6/_includes/top-nav.html"
+			],
+			[
+				"read",
+				"zachalbert.com_v6/README.md"
+			],
+			[
+				"subs",
+				"zachalbert.com_v6/_includes/subscribe.html"
+			],
+			[
+				"defau",
+				"zachalbert.com_v6/_layouts/default.html"
+			],
+			[
+				"main",
+				"zachalbert.com_v6/_scss/_main.scss"
+			],
+			[
+				"readm",
+				"zachalbert.com_v6/README.md"
+			],
+			[
+				"gulp",
+				"zachalbert.com_v6/gulpfile.js"
+			],
+			[
+				"work/",
+				"zachalbert.com_v6/work/index.html"
+			],
+			[
+				"thanks",
+				"zachalbert.com_v6/thanks/index.html"
+			],
+			[
+				"readme",
+				"zachalbert.com_v6/README.md"
+			],
+			[
+				"defa",
+				"zachalbert.com_v6/_layouts/default.html"
+			],
+			[
+				"orr",
+				"zachalbert.com_v6/_includes/orrry.html"
+			],
+			[
+				"orrr",
+				"zachalbert.com_v6/_includes/orrry.html"
+			],
+			[
+				"typo",
+				"zachalbert.com_v6/_scss/_typography.scss"
+			],
+			[
+				"main.scs",
+				"zachalbert.com_v6/_scss/_main.scss"
+			],
+			[
+				"main.sc",
+				"zachalbert.com_v6/_scss/_main.scss"
+			],
+			[
+				"break",
+				"zachalbert.com_v6/_scss/_breakpoints.scss"
+			],
+			[
+				"mixins",
+				"how-long/scss/_mixins.scss"
+			],
+			[
+				"typ",
+				"zachalbert.com_v6/_scss/_typography.scss"
+			],
+			[
+				"icon",
+				"zachalbert.com_v6/_scss/_icons.scss"
+			],
+			[
+				"donation_form",
+				"GoldStar/app/views/addresses/_donation_form.erb"
+			],
+			[
+				"_fomr",
+				"GoldStar/app/views/submissions/_form.html.erb"
+			],
+			[
+				"need_inpi",
+				"GoldStar/app/views/modals/_need_inspiration.html.erb"
+			],
+			[
+				"modaleff",
+				"GoldStar/app/assets/javascripts/modals/modalEffects.js"
+			],
+			[
+				"donation_",
+				"GoldStar/app/views/addresses/_donation_form.erb"
+			],
+			[
+				"submission/_fo",
+				"GoldStar/app/views/submissions/_form.html.erb"
+			],
+			[
+				"welcome/in",
+				"GoldStar/app/views/welcome/index.html.erb"
+			],
+			[
+				"_cta",
+				"GoldStar/app/views/layouts/partials/_cta.html.erb"
+			],
+			[
+				"impact",
+				"GoldStar/app/views/modals/_impact_loitering.html.erb"
+			],
+			[
+				"impac",
+				"GoldStar/app/views/pages/impact.html.erb"
+			],
+			[
+				"create.js",
+				"GoldStar/app/views/addresses/create.js.erb"
+			],
+			[
+				"vari",
+				"wp-content/themes/samahope-underscore/scss/_variables.scss"
+			],
+			[
+				"variables",
+				"wp-content/themes/samahope-underscore/scss/_variables.scss"
+			],
+			[
+				"vair",
+				"wp-admin/css/colors/_variables.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
