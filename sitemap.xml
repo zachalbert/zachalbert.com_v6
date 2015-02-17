@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.zachalbert.com/how-to-pick-a-design-specialty/</loc>
+    <lastmod>2015-02-10T00:00:00-08:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://www.zachalbert.com/website-redesign-2015/</loc>
     <lastmod>2015-01-15T00:00:00-08:00</lastmod>
     <priority>0.8</priority>
@@ -67,25 +72,25 @@
   </url>
   <url>
     <loc>http://www.zachalbert.com/404.html</loc>
-    <lastmod>2015-02-16T23:35:14-08:00</lastmod>
+    <lastmod>2015-02-17T01:36:37-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://www.zachalbert.com/</loc>
-    <lastmod>2015-02-16T23:35:14-08:00</lastmod>
+    <lastmod>2015-02-17T01:36:37-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://www.zachalbert.com/thanks/</loc>
-    <lastmod>2015-02-16T23:35:14-08:00</lastmod>
+    <lastmod>2015-02-17T01:36:37-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>http://www.zachalbert.com/work/</loc>
-    <lastmod>2015-02-16T23:35:14-08:00</lastmod>
+    <lastmod>2015-02-17T01:36:37-08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
