@@ -2,12 +2,25 @@
 	"folders":
 	[
 		{
-			"follow_symlinks": true,
 			"path": "."
 		},
 		{
-			"follow_symlinks": true,
 			"path": "/Users/zac/Dropbox/www/scouthawk"
+		},
+		{
+			"path": "/Users/zac/Dropbox/www/tradecraft/tradecraft-internal"
+		},
+		{
+			"path": "/Users/zac/Dropbox/www/data-modeling-clay"
+		},
+		{
+			"path": "/Users/zac/Dropbox/www/todos"
+		},
+		{
+			"path": "/Users/zac/Downloads/names"
+		},
+		{
+			"path": "/Users/zac/Dropbox/www/babynamr"
 		}
 	]
 }

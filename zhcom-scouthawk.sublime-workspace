@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"border-left",
+				"border-left-width"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"showhide",
+				"showhide-container"
+			],
+			[
+				"glyph",
+				"glyphicon-plus-sign"
+			],
+			[
+				"show",
+				"showhide-container"
+			],
+			[
+				"glyp",
+				"glyphicon-plus-sign"
+			],
+			[
 				"remove",
 				"removeClass"
 			],
@@ -43,13 +67,30 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/zac/Dropbox/www/babynamr/babynamr.js",
+			"settings":
+			{
+				"buffer_size": 542,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
 	"command_palette":
 	{
 		"height": 400.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
 			[
 				"enable",
 				"Package Control: Enable Package"
@@ -84,10 +125,6 @@
 			],
 			[
 				"disable",
-				"Package Control: Disable Package"
-			],
-			[
-				"pack",
 				"Package Control: Disable Package"
 			],
 			[
@@ -132,146 +169,140 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_layouts",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6",
 		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_site/js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/thanks",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/work",
-		"/Users/zac/Dropbox/www/scouthawk/_layouts"
+		"/Users/zac/Dropbox/www/scouthawk"
 	],
 	"file_history":
 	[
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_mixins.scss",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes/subscribe.html",
+		"/Users/zac/Dropbox/www/tradecraft/traction-test-1/traction-test-1.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_variables.scss",
+		"/Users/zac/Downloads/names/yob1880.txt",
+		"/Users/zac/Dropbox/www/babynamr/babynamr.html",
+		"/Users/zac/Dropbox/www/babynamr/lib/name_data.js",
+		"/Users/zac/Dropbox/www/babynamr/name_data.json",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/build/programs/server/program.json",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/build/programs/web.browser/8409761d1a9026330c6a3583e28ff3261af36752.css.map",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/build/programs/web.browser/program.json",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/build/programs/web.cordova/8409761d1a9026330c6a3583e28ff3261af36752.css.map",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/build/programs/web.cordova/program.json",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/config.xml",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/emulator/simple-todos.app.dSYM/Contents/Resources/DWARF/simple-todos",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/emulator/simple-todos.app/config.xml",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/emulator/simple-todos.app/Info.plist",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/emulator/simple-todos.app/simple-todos",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/emulator/simple-todos.app/www/application/416d8210ef93e60a33f5d33f0edfb9760856b04d.css.map",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/emulator/simple-todos.app/www/application/index.html",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/emulator/simple-todos.app/www/application/program.json",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/sharedpch/CordovaLib_Prefix-cbhwxofcgzvqqhfzihbfzbcqddwm/CordovaLib_Prefix.pch.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/sharedpch/CordovaLib_Prefix-cbhwxofcgzvqqhfzihbfzbcqddwm/CordovaLib_Prefix.pch.data",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/sharedpch/CordovaLib_Prefix-cbhwxofcgzvqqhfzihbfzbcqddwm/CordovaLib_Prefix.pch.pch.hash-criteria",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/sharedpch/simple-todos-Prefix-etbuijgrlwztricidelldedjidsq/simple-todos-Prefix.pch.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/sharedpch/simple-todos-Prefix-etbuijgrlwztricidelldedjidsq/simple-todos-Prefix.pch.data",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/sharedpch/simple-todos-Prefix-etbuijgrlwztricidelldedjidsq/simple-todos-Prefix.pch.pch.hash-criteria",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/dgph",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/Objects-normal/i386/AppDelegate.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/Objects-normal/i386/CDVAssetLibraryFilesystem.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/Objects-normal/i386/CDVDevice.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/Objects-normal/i386/CDVFile.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/Objects-normal/i386/CDVFileTransfer.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/Objects-normal/i386/CDVLocalFilesystem.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/Objects-normal/i386/CDVLogger.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/Objects-normal/i386/CDVSplashScreen.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/Objects-normal/i386/CDVStatusBar.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/Objects-normal/i386/CDVStatusBar.dia",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/Objects-normal/i386/CordovaUpdate.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/Objects-normal/i386/main.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/Objects-normal/i386/MainViewController.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/Objects-normal/i386/METEORCordovaURLProtocol.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/Objects-normal/i386/METEORCordovaURLProtocol.dia",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/Objects-normal/i386/simple-todos.LinkFileList",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/Objects-normal/i386/simple-todos_dependency_info.dat",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/simple-todos-project-headers.hmap",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/simple-todos.build/Debug-iphonesimulator/simple-todos.build/simple-todos.hmap",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/cordova/console.log",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-non-framework-target-headers.hmap",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova.hmap",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/dgph",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.d",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/simple-todos.xcodeproj/project.pbxproj",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/simple-todos/Classes/AppDelegate.h",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/simple-todos/Classes/AppDelegate.m",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/simple-todos/Classes/MainViewController.h",
+		"/Users/zac/Dropbox/www/simple-todos/simple-todos.css",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/sharedpch/simple-todos-Prefix-etbuijgrlwztricidelldedjidsq/simple-todos-Prefix.pch.pch",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/build/sharedpch/CordovaLib_Prefix-cbhwxofcgzvqqhfzihbfzbcqddwm/CordovaLib_Prefix.pch.pch",
+		"/Users/zac/Dropbox/www/simple-todos/simple-todos.js",
+		"/Users/zac/Dropbox/www/simple-todos/simple-todos.html",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/simple-todos/Classes/MainViewController.m",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/simple-todos/config.xml",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/simple-todos/main.m",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/simple-todos/simple-todos-Prefix.pch",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/www/application/416d8210ef93e60a33f5d33f0edfb9760856b04d.css.map",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/www/application/index.html",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/platforms/ios/www/application/program.json",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/plugins/com.meteor.cordova-update/.fetch.json",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/www/application/416d8210ef93e60a33f5d33f0edfb9760856b04d.css.map",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/www/application/index.html",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/cordova-build/www/application/program.json",
+		"/Users/zac/Dropbox/www/infosymmetry/.meteor/local/db/local.0",
+		"/Users/zac/Dropbox/www/todos/server/publish.js",
+		"/Users/zac/Dropbox/www/todos/client/head.html",
+		"/Users/zac/Dropbox/www/todos/client/templates/loading.html",
+		"/Users/zac/Dropbox/www/data-modeling-clay/data/data.js",
+		"/Users/zac/Dropbox/www/data-modeling-clay/index.html",
+		"/Users/zac/Dropbox/www/data-modeling-clay/js/site.js",
+		"/Users/zac/Dropbox/www/atomic-site/index.html",
+		"/Users/zac/Dropbox/www/data-modeling-clay/css/style.css",
+		"/Users/zac/Dropbox/www/tradecraft/tradecraft-internal/style.css",
+		"/Users/zac/Dropbox/www/tradecraft/tradecraft-internal/index.html",
+		"/Users/zac/Dropbox/www/tradecraft/tradecraft-internal/bootstrap.min.css",
+		"/Users/zac/Dropbox/www/tradecraft/tradecraft-internal/site.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_layouts/default.html",
+		"/Users/zac/Dropbox/www/tradecraft/tradecraft-internal/views/layouts/main.handlebars",
+		"/Users/zac/Dropbox/www/tradecraft/tradecraft-internal/public/javascripts/community.js",
+		"/Users/zac/Dropbox/www/tradecraft/tradecraft-internal/app.js",
+		"/Users/zac/Dropbox/www/tradecraft/tradecraft-internal/public/stylesheets/style.css",
+		"/Users/zac/Dropbox/www/tradecraft/tradecraft-internal/public/javascripts/tradecraft_brand.js",
+		"/Users/zac/Dropbox/Zac Halbert Design/Tradecraft/_Tradecraft-Brand/_TC-Branding-Guide/README.md",
+		"/Users/zac/Dropbox/www/tradecraft/tradecraft-internal/views/tradecraft_brand.handlebars",
+		"/Users/zac/Dropbox/Zac Halbert Design/Tradecraft/_Tradecraft-Brand/_TC-Branding-Guide/stuff.css",
+		"/Users/zac/Dropbox/www/tradecraft/acorn/index.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_breakpoints.scss",
 		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_main.scss",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2015-01-10-orrery.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-03-24-learning-to-ship-quicker.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2015-02-02-ten-million-smiles.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2015-02-10-how-to-pick-a-design-specialty.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_typography.scss",
+		"/Users/zac/Dropbox/www/tradecraft/seedling/style.css",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes/about.html",
 		"/Users/zac/Dropbox/www/zachalbert.com_v6/work/index.html",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2015-01-15-website-redesign-2015.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes/social-likes.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes/top-nav.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/index.html",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_layouts/post.html",
 		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes/_head.html",
 		"/Users/zac/Dropbox/www/zachalbert.com_v6/_js/main.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_js/physicsjs-main.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-02-14-lean-ux-san-francisco-logo-contest.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_layouts/post.html",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-11-27-infographic-global-surgery-gap.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes/contact.html",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_forms.scss",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_breakpoints.scss",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/index.html",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes/about.html",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_layouts/default.html",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/thanks/index.html",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_layouts/_footer.html",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_layouts/_head.html",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_orrry.scss",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_variables.scss",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes/orrry.html",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_icons.scss",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes/top-nav.html",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2015-02-10-product-design-vs-ux-design.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_highlight.scss",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/mout/lang/isNull.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2014-11-04-what-i-learned-while-rapid-prototyping-in-a-refugee-camp.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2014-10-28-3-rules-for-better-design-critique-a-cheatsheet-for-the-whole-team.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-10-27-why-i-joined-a-non-profit-startup.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-07-05-refugees-united-hackathon.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-06-20-rapid-prototyping-toolbox-for-designers.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-05-03-collaborative-design-lean-ux-is-haaaard.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-04-25-masking-complexity-through-progressive-disclosure.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-04-13-jpg-images-with-png-transparency.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-01-10-joining-recurly.md",
-		"/Users/zac/Dropbox/www/scouthawk/README.md",
-		"/Users/zac/Dropbox/www/scouthawk/gulpfile.js",
-		"/Users/zac/Dropbox/www/scouthawk/CNAME",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2015-02-10-difference-between-product-design-and-ux.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_config.yml",
-		"/Users/zac/Dropbox/www/scouthawk/LICENSE",
-		"/Users/zac/Dropbox/www/scouthawk/_scss/_forms.scss",
-		"/Users/zac/Dropbox/www/scouthawk/_layouts/default.html",
-		"/Users/zac/Dropbox/www/scouthawk/_scss/_main.scss",
-		"/Users/zac/Dropbox/www/scouthawk/_scss/_typography.scss",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/gulpfile.js",
-		"/Users/zac/Dropbox/www/scouthawk/index.html",
-		"/Users/zac/Dropbox/www/scouthawk/_config.yml",
-		"/Users/zac/Dropbox/www/scouthawk/_scss/_breakpoints.scss",
-		"/Users/zac/Dropbox/www/scouthawk/_scss/style.scss",
-		"/Users/zac/Dropbox/www/scouthawk/_scss/_variables.scss",
-		"/Users/zac/Dropbox/www/scouthawk/404.html",
-		"/Users/zac/Dropbox/www/scouthawk/bower.json",
-		"/Users/zac/Dropbox/www/scouthawk/package.json",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/gulp/node_modules/liftoff/lib/parse_options.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/package.json",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/404.html",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/style.scss",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_site/js/site.min.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_offcanvas.scss",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_plugins/share_buttons.rb",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_includes/sharing.html",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2013-04-06-auto-blog-dribbble-shots-to-wordpress.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_site/3-rules-for-better-design-critique-a-cheatsheet-for-the-whole-team/index.html",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_js/0jquery.hypher.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/README.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/browser-sync/node_modules/cli-color/node_modules/memoizee/lib/registered-extensions.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2015-01-01-yay.html",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/browser-sync/node_modules/cli-color/node_modules/es5-ext/test/number/to-pos-integer.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/browser-sync/node_modules/cli-color/node_modules/es5-ext/number/to-pos-integer.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_plugins/regex_filter.rb",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/gulp-concat/node_modules/concat-with-sourcemaps/node_modules/source-map/build/suffix-utils.jsm",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/gulp-uglify/node_modules/uglify-js/lib/mozilla-ast.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/browser-sync/node_modules/browser-sync-client/.idea/workspace.xml",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/mout/date/weekOfTheYear.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/bower_components/jQuery/src/wrap.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/coveralls/test/handleInput.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/bower-registry-client/node_modules/request/tests/test-hawk.js",
-		"/Users/zac/Dropbox/www/scouthawk/posts/_definition-experiment.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_js/1en-us.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_animation.scss",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/insight/node_modules/os-name/node_modules/.bin/osx-release",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_js/hyphenator_loader.js",
-		"/Users/zac/Dropbox/Zac Halbert Design/Scout Hawk/Clients/TriKro/Branding/trikro.scss",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2014-12-08-hope-cards-launches.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2014-10-28-3-rules-for-better-design-critique.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/browser-sync/node_modules/sinon/lib/sinon/typeOf.js",
-		"/Users/zac/Dropbox/www/scouthawk/posts/scheduler-monday.md",
-		"/Users/zac/Dropbox/www/scouthawk/posts/file-hierarchy.md",
-		"/Users/zac/Dropbox/www/scouthawk/posts/mailing-list.md",
-		"/Users/zac/Dropbox/www/scouthawk/posts/social-media-strategy.md",
-		"/Users/zac/Dropbox/www/scouthawk/posts/event-tracking.md",
-		"/Users/zac/Dropbox/www/scouthawk/posts/funnel-stage-1.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_layouts/project.html",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2014-11-23-yay.html",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2014-12-04-project-title.html",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/main-bower-files/node_modules/minimatch/test/brace-expand.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/glob/test/bash-results.json",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/bower.json",
-		"/Users/zac/Dropbox/www/how-long/app/bower_components/bootstrap/grunt/bs-lessdoc-parser.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/gulp-gh-pages/node_modules/gift/lib/blob.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/gulp/node_modules/marked-man/test/files/blockquotes.man",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/2014-04-20-welcome-to-jekyll.markdown",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/browser-sync/node_modules/gulp-jscs/node_modules/jscs/node_modules/colors/ReadMe.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/grunt/node_modules/colors/ReadMe.md",
-		"/Users/zac/Dropbox/www/how-long/node_modules/main-bower-files/node_modules/colors/ReadMe.md",
-		"/Users/zac/Dropbox/www/how-long/node_modules/http-server/node_modules/colors/ReadMe.md",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/main-bower-files/node_modules/colors/ReadMe.md",
-		"/Users/zac/Dropbox/www/how-long/scss/_mixins.scss",
-		"/Users/zac/Dropbox/www/how-long/node_modules/gulp-sass/test/scss/mixins.scss",
-		"/Users/zac/Dropbox/www/how-long/node_modules/gulp-sass/test/ref/mixins.css",
-		"/Users/zac/Dropbox/www/how-long/app/bower_components/bootstrap/less/mixins.less",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/gulp-sass/test/scss/mixins.scss",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/gulp-sass/test/ref/mixins.css",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/mout/object/mixIn.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/mout/number/MAX_INT.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/bower/node_modules/mout/date/totalDaysInYear.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/bower_components/floatlabel.js/floatlabels.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/bower_components/JVFloat/jvfloat.js",
-		"/Users/zac/Dropbox/www/zachalbert.com_v6/js/site.min.js"
+		"/Users/zac/Library/Application Support/Steam/SteamApps/common/Kerbal Space Program/GameData/Squad/Parts/Wheel/roverWheelM1/roverWheelM1.cfg",
+		"/Users/zac/Library/Application Support/Steam/SteamApps/common/Kerbal Space Program/GameData/Squad/Parts/Wheel/roverWheelK1/roverWheelK1.cfg",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/node_modules/browser-sync/node_modules/minimist/test/all_bool.js",
+		"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss/_orrry.scss"
 	],
 	"find":
 	{
@@ -282,6 +313,8 @@
 		"height": 106.0,
 		"where_history":
 		[
+			"/Users/zac/Dropbox/www/infosymmetry/",
+			"/Users/zac/Dropbox/www/tradecraft/tradecraft-internal",
 			"/Users/zac/Dropbox/www/zachalbert.com_v6/",
 			"/Users/zac/Dropbox/www/zachalbert.com_v6/_scss",
 			"/Users/zac/Dropbox/www/zachalbert.com_v6/_posts/",
@@ -303,6 +336,43 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"\\n",
+			"simple-todos",
+			"list",
+			"list-list",
+			"\"list-group-item small\"",
+			"small",
+			"panel-title",
+			"id",
+			"panel-title",
+			"points",
+			"panel-title",
+			"../fonts/glyphicons",
+			"12",
+			"heroku",
+			".",
+			"(.*(\\n|$)){2}",
+			".*\\n.*\\n",
+			"^.*class=\"",
+			"</td>",
+			"</span>",
+			"</span",
+			"^.*td*\\n",
+			"^.*class*\\n",
+			"</td>",
+			"</span>",
+			"Download Options</a>",
+			"<a href=\"#\" id=\"light-logo-full\" class=\"pull-right showhide\">",
+			"no-margin-top",
+			"clearfix",
+			"<th>",
+			"<tr>",
+			"bio-pic",
+			"undefined",
+			"site-nav-bg",
+			"fixed",
+			"mask",
+			"_blank",
 			"iframe",
 			"github.com",
 			"&",
@@ -393,51 +463,32 @@
 			"url",
 			"pre",
 			"post.title",
-			"page.title",
-			"playGod",
-			"form",
-			"h2",
-			"post-date",
-			"button",
-			"h2",
-			"img",
-			"figure",
-			"full",
-			"$speed",
-			"code",
-			"$order",
-			"playGod",
-			"color-border",
-			"float: righ",
-			"label",
-			"orrry",
-			"orrr",
-			"label",
-			"paused",
-			"orrry-description",
-			"description",
-			"sessionStorage",
-			"top",
-			"h1",
-			"pattern",
-			"post_side",
-			"}\n",
-			"post-side",
-			"site-main",
-			"about",
-			"link-bank",
-			"separat",
-			"color-text",
-			"button",
-			"scale",
-			";\n"
+			"page.title"
 		],
 		"highlight": true,
 		"in_selection": false,
 		"preserve_case": false,
-		"regex": false,
+		"regex": true,
 		"replace_history":
 		[
+			"\\n1880,",
+			"info-symmetry",
+			"link-list",
+			"\"list-group-item\"",
+			" fonts/glyphicons",
+			" ",
+			"",
+			"\n</td>",
+			"</span>\n",
+			"\n</td>",
+			"</span>\n",
+			"</span>",
+			"Download Options</a>\n      <br><img src=\"example.png\" class=\"example-img\">",
+			"<a href=\"#\" class=\"pull-right showhide\">",
+			"bare",
+			"clearfix title-block",
+			"<th class=\"panel-heading\">",
+			"<tr class=\"panel panel-default\">",
 			"&amp;",
 			"figure iframe {",
 			"{% endhighlight %}\n<div class=\"note\">\n  Full code <a href=\"https://github.com/zachalbert/zachalbert.com_v6#the-orrery\">available on github</a>.\n</div>",
@@ -486,14 +537,44 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/zac/Dropbox/www/babynamr/babynamr.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 542,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								25
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 38.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -526,17 +607,39 @@
 	{
 		"height": 0.0
 	},
+	"pinned_build_system": "",
 	"project": "zhcom-scouthawk.sublime-project",
 	"replace":
 	{
-		"height": 72.0
+		"height": 78.0
 	},
 	"save_all_on_build": true,
 	"select_file":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"about",
+				"zachalbert.com_v6/_includes/about.html"
+			],
+			[
+				"post",
+				"zachalbert.com_v6/_layouts/post.html"
+			],
+			[
+				"defa",
+				"zachalbert.com_v6/_layouts/default.html"
+			],
+			[
+				"top-n",
+				"zachalbert.com_v6/_includes/top-nav.html"
+			],
+			[
+				"sub",
+				"zachalbert.com_v6/_includes/subscribe.html"
+			],
 			[
 				"subsc",
 				"zachalbert.com_v6/_includes/subscribe.html"
@@ -550,20 +653,12 @@
 				"zachalbert.com_v6/_layouts/post.html"
 			],
 			[
-				"post",
-				"zachalbert.com_v6/_layouts/post.html"
-			],
-			[
 				"su",
 				"zachalbert.com_v6/_includes/subscribe.html"
 			],
 			[
 				"def",
 				"zachalbert.com_v6/_layouts/default.html"
-			],
-			[
-				"sub",
-				"zachalbert.com_v6/_includes/subscribe.html"
 			],
 			[
 				"top-",
@@ -608,10 +703,6 @@
 			[
 				"readme",
 				"zachalbert.com_v6/README.md"
-			],
-			[
-				"defa",
-				"zachalbert.com_v6/_layouts/default.html"
 			],
 			[
 				"orr",
@@ -711,6 +802,7 @@
 	"select_project":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -719,6 +811,7 @@
 	"select_symbol":
 	{
 		"height": 0.0,
+		"last_filter": "",
 		"selected_items":
 		[
 		],
@@ -728,7 +821,7 @@
 	"settings":
 	{
 	},
-	"show_minimap": false,
+	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
