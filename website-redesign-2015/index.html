@@ -257,7 +257,7 @@
 
 <p>Typographically speaking, I chose <a href="https://typekit.com/fonts/abril-text">Abril Text</a> for body copy and <a href="https://typekit.com/fonts/abril-titling">Abril Titling</a> for headlines. Its history in editorial work and tasty italic lean complimented my odd 2/3 layout and matched the whitespacey look I was going for. I used <a href="http://www.type-scale.com">Type Scale</a> to build a font-size scale, and used that same scale to create strips of ‘lead’ spacers (an homage to moveable lead type). All block-level elements such as <code>section</code> and <code>p</code> tags receive either one, two, or three lead on the bottom only to create a satisfying vertical rhythm. The net result is that multiple columns of text will <em>always</em> be baseline-aligned since the measurements are based on the same building blocks.</p>
 
-<div class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="lineno"> 1</span> <span class="c1">////// Type Scale //////</span>
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="lineno"> 1</span> <span class="c1">////// Type Scale //////</span>
 <span class="lineno"> 2</span> 
 <span class="lineno"> 3</span> <span class="nv">$scale</span><span class="o">:</span> <span class="mi">1</span><span class="mf">.618</span><span class="p">;</span>
 <span class="lineno"> 4</span> <span class="nv">$font-size</span><span class="o">:</span> <span class="mi">17</span><span class="kt">px</span><span class="p">;</span>
@@ -289,7 +289,7 @@
 <span class="lineno">30</span> <span class="nc">.lead-quadruple</span>  <span class="p">{</span> <span class="na">margin-bottom</span><span class="o">:</span> <span class="nv">$line-height</span> <span class="o">*</span> <span class="mi">4</span><span class="p">;</span> <span class="p">}</span>
 <span class="lineno">31</span> 
 <span class="lineno">32</span> <span class="nv">$lead-quintuple</span><span class="o">:</span>   <span class="nv">$line-height</span> <span class="o">*</span> <span class="mi">5</span><span class="p">;</span>
-<span class="lineno">33</span> <span class="nc">.lead-quintuple</span>  <span class="p">{</span> <span class="na">margin-bottom</span><span class="o">:</span> <span class="nv">$line-height</span> <span class="o">*</span> <span class="mi">5</span><span class="p">;</span> <span class="p">}</span></code></pre></div>
+<span class="lineno">33</span> <span class="nc">.lead-quintuple</span>  <span class="p">{</span> <span class="na">margin-bottom</span><span class="o">:</span> <span class="nv">$line-height</span> <span class="o">*</span> <span class="mi">5</span><span class="p">;</span> <span class="p">}</span></code></pre></figure>
 
 <div class="note">
   Full code <a href="https://github.com/zachalbert/zachalbert.com_v6">available on github</a>.
@@ -327,14 +327,14 @@
 
 <p>Once everything is working, notice there is a block in <code>gulpfile.js</code> that automates the github pages deploy process.</p>
 
-<div class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="lineno">1</span> <span class="c1">// Deploy to github gulp-gh-pages</span>
+<figure class="highlight"><pre><code class="language-javascript" data-lang="javascript"><span class="lineno">1</span> <span class="c1">// Deploy to github gulp-gh-pages</span>
 <span class="lineno">2</span> <span class="nx">gulp</span><span class="p">.</span><span class="nx">task</span><span class="p">(</span><span class="s1">&#39;deploy&#39;</span><span class="p">,</span> <span class="p">[</span><span class="s1">&#39;jekyll-build&#39;</span><span class="p">],</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
 <span class="lineno">3</span>   <span class="k">return</span> <span class="nx">gulp</span><span class="p">.</span><span class="nx">src</span><span class="p">(</span><span class="s1">&#39;./_site/**/*&#39;</span><span class="p">)</span>
 <span class="lineno">4</span>     <span class="p">.</span><span class="nx">pipe</span><span class="p">(</span><span class="nx">deploy</span><span class="p">({</span>
 <span class="lineno">5</span>       <span class="nx">remoteUrl</span><span class="o">:</span> <span class="s2">&quot;git@github.com:USERNAME/REPO.git&quot;</span><span class="p">,</span>
 <span class="lineno">6</span>       <span class="nx">branch</span><span class="o">:</span> <span class="s2">&quot;master&quot;</span>
 <span class="lineno">7</span>     <span class="p">}));</span>
-<span class="lineno">8</span> <span class="p">});</span></code></pre></div>
+<span class="lineno">8</span> <span class="p">});</span></code></pre></figure>
 
 <div class="note">
   Full code <a href="https://github.com/zachalbert/zachalbert.com_v6">available on github</a>.
@@ -423,19 +423,22 @@
             <div class="bio-pic" title="Zac Halbert"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="name" content="Zac Halbert"></span></div>
           </div>
           <div class="post_main">
-            <p>
-              Hi, I'm Zac Halbert. I'm a digital product designer and lifelong learner living in San Francisco, California with my <a href="https://instagram.com/p/LqnU4XN7Rv">Wife Sheena and sheepdog Rufus</a>. I currently run the <a href="http://tradecrafted.com/">Product Design &amp; UX track at Tradecraft</a>, where we train smart people to succeed in traction roles at high-growth startups.
-            </p>
-            <p>
-              I also own independent product design consultancy <a href="http://www.scouthawk.com/">Scout Hawk Product Design Studio</a>, where I help entrepreneurs turn hazy ideas into concrete digital products, and <a href="http://www.foliotwist.com/">Foliotwist</a>, a portfolio and marketing SaaS company for visual artists. I also advise a number of companies on the intersection of user experience design, product design and management, and rapid prototyping and idea validation that draws heavily from the <a href="http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898">Lean Startup</a> philosophy.
-            </p>
-            <p>
-              My background is a mixture between formal graphic design and fine arts education, mixed with a long history of self-taught frontend programming skills. I began to learn HTML, CSS, and UI design at age 12 (I was a huge nerd), and got my first job as a web designer at age 15 &mdash; and have been doing it and loving it ever since. I eventually got my degree in graphic design, but have diverse interest in nearly every field that blends technical and creative work.
-            </p>
-            <p>
-              While I'm not very good at keeping my <a href="/work">portfolio</a> or <a href="/">blog</a> up to date, I always love connecting with fellow designers, entrepreneurs, and developers. Here are just a fraction of the companies I've had the pleasure to work with.
-            </p>
+            <div class="prog-disc-about contracted">
+              <p>
+                Hi, I'm Zac Halbert. I'm a digital product designer and lifelong learner living in San Francisco, California with my wife, son, and sheepdog. I currently run the <a href="http://tradecrafted.com/">Product Design &amp; UX track at Tradecraft</a>, where we train smart people to succeed in traction roles at high-growth startups.
+              </p>
+              <p>
+                I also own independent product design consultancy <a href="http://www.scouthawk.com/">Scout Hawk Product Design Studio</a>, where I help entrepreneurs turn hazy ideas into concrete digital products, and <a href="http://www.foliotwist.com/">Foliotwist</a>, a portfolio and marketing SaaS company for visual artists. I also advise a number of companies on the intersection of user experience design, product design and management, and rapid prototyping and idea validation that draws heavily from the <a href="http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898">Lean Startup</a> philosophy.
+              </p>
+              <p>
+                My background is a mixture between formal graphic design and fine arts education, mixed with a long history of self-taught frontend programming skills. I began to learn HTML, CSS, and UI design at age 12 (I was a huge nerd), and got my first job as a web designer at age 15 &mdash; and have been doing it and loving it ever since. I eventually got my degree in graphic design, but have diverse interest in nearly every field that blends technical and creative work.
+              </p>
+              <p>
+                While I'm not very good at keeping my <a href="/work">portfolio</a> or <a href="/">blog</a> up to date, I always love connecting with fellow designers, entrepreneurs, and developers. Here are just a few of the companies I've had the pleasure to work with.
+              </p>
+            </div>
           </div>
+
           <div class="nascarification">
             <span class="nascar samahope" title="SamaHope"></span><span class="nascar samagroup" title="SamaGroup"></span><span class="nascar archively" title="Archively"></span><span class="nascar broadly" title="Broadly"></span><span class="nascar sharefund" title="ShareFund"></span><span class="nascar recurly" title="Recurly"></span><!-- <span class="nascar nomnommer" title="NomNommer"></span> -->
             <br><br>

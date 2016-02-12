@@ -263,14 +263,14 @@ the orrery</a> is posted on github if you want to take a detailed look. Here’s
 
 <p>The markup to generate the orbital rings and planets themselves is relatively simple. Here’s all it takes for Earth — CSS takes care of the color, shape, positioning, <em>and</em> rotation animation:</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;earth&quot;</span> <span class="na">id=</span><span class="s">&quot;earth&quot;</span><span class="nt">&gt;</span>
+<figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;earth&quot;</span> <span class="na">id=</span><span class="s">&quot;earth&quot;</span><span class="nt">&gt;</span>
 <span class="lineno">2</span>   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;label&quot;</span><span class="nt">&gt;&lt;span</span> <span class="na">class=</span><span class="s">&quot;symbol&quot;</span><span class="nt">&gt;</span>♁<span class="nt">&lt;/span&gt;</span>Earth<span class="nt">&lt;/div&gt;</span>
 <span class="lineno">3</span>   <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;orbit&quot;</span><span class="nt">&gt;</span>
 <span class="lineno">4</span>     <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;planet&quot;</span><span class="nt">&gt;</span>
 <span class="lineno">5</span>       <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;satellite s_1&quot;</span><span class="nt">&gt;&lt;/div&gt;</span>
 <span class="lineno">6</span>     <span class="nt">&lt;/div&gt;</span>
 <span class="lineno">7</span>   <span class="nt">&lt;/div&gt;</span>
-<span class="lineno">8</span> <span class="nt">&lt;/div&gt;</span></code></pre></div>
+<span class="lineno">8</span> <span class="nt">&lt;/div&gt;</span></code></pre></figure>
 
 <div class="note">
   Full code <a href="https://github.com/zachalbert/zachalbert.com_v6#the-orrery">available on github</a>.
@@ -283,7 +283,7 @@ until the planets were sized and laid out how I wanted. I mostly eyeballed the
 orbit size, position, and size of the planets by beginning with accurate numbers
 and making small adjustments.</p>
 
-<div class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="lineno"> 1</span> <span class="c1">// Build the planets</span>
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="lineno"> 1</span> <span class="c1">// Build the planets</span>
 <span class="lineno"> 2</span> <span class="c1">// buildPlanet($orbitSize, $orbitPos, $color, $planetSize)</span>
 <span class="lineno"> 3</span> <span class="nc">.mercury</span> <span class="p">{</span> <span class="k">@include</span><span class="nd"> buildPlanet</span><span class="p">(</span><span class="mi">10</span><span class="kt">%</span><span class="o">,</span>  <span class="mi">2</span><span class="kt">%</span><span class="o">,</span> <span class="nv">$color-2</span><span class="o">,</span> <span class="nv">$mercury-size</span> <span class="o">/</span> <span class="mi">1</span><span class="p">);</span> <span class="p">}</span>
 <span class="lineno"> 4</span> <span class="nc">.venus</span>   <span class="p">{</span> <span class="k">@include</span><span class="nd"> buildPlanet</span><span class="p">(</span><span class="mi">16</span><span class="kt">%</span><span class="o">,</span>  <span class="mi">3</span><span class="kt">%</span><span class="o">,</span> <span class="nv">$color-3</span><span class="o">,</span> <span class="nv">$venus-size</span> <span class="o">/</span> <span class="mi">1</span><span class="p">);</span> <span class="p">}</span>
@@ -294,7 +294,7 @@ and making small adjustments.</p>
 <span class="lineno"> 9</span> <span class="nc">.uranus</span>  <span class="p">{</span> <span class="k">@include</span><span class="nd"> buildPlanet</span><span class="p">(</span><span class="mi">61</span><span class="kt">%</span><span class="o">,</span>  <span class="mi">8</span><span class="kt">%</span><span class="o">,</span> <span class="nv">$color-8</span><span class="o">,</span> <span class="nv">$uranus-size</span> <span class="o">/</span> <span class="mi">5</span><span class="p">);</span> <span class="p">}</span>
 <span class="lineno">10</span> <span class="nc">.neptune</span> <span class="p">{</span> <span class="k">@include</span><span class="nd"> buildPlanet</span><span class="p">(</span><span class="mi">73</span><span class="kt">%</span><span class="o">,</span>  <span class="mi">9</span><span class="kt">%</span><span class="o">,</span> <span class="nv">$color-9</span><span class="o">,</span> <span class="nv">$neptune-size</span> <span class="o">/</span> <span class="mi">5</span><span class="p">);</span> <span class="p">}</span>
 <span class="lineno">11</span> <span class="nc">.pluto</span>   <span class="p">{</span> <span class="k">@include</span><span class="nd"> buildPlanet</span><span class="p">(</span><span class="mi">86</span><span class="kt">%</span><span class="o">,</span> <span class="mi">10</span><span class="kt">%</span><span class="o">,</span> <span class="nv">$color-10</span><span class="o">,</span> <span class="nv">$pluto-size</span> <span class="o">/</span> <span class="mi">0</span><span class="mf">.5</span><span class="p">);</span> <span class="p">}</span>
-<span class="lineno">12</span> <span class="nc">.eris</span>    <span class="p">{</span> <span class="k">@include</span><span class="nd"> buildPlanet</span><span class="p">(</span><span class="mi">100</span><span class="kt">%</span><span class="o">,</span> <span class="mi">11</span><span class="kt">%</span><span class="o">,</span> <span class="nv">$color-11</span><span class="o">,</span> <span class="nv">$eris-size</span> <span class="o">/</span> <span class="mi">0</span><span class="mf">.5</span><span class="p">);</span> <span class="p">}</span></code></pre></div>
+<span class="lineno">12</span> <span class="nc">.eris</span>    <span class="p">{</span> <span class="k">@include</span><span class="nd"> buildPlanet</span><span class="p">(</span><span class="mi">100</span><span class="kt">%</span><span class="o">,</span> <span class="mi">11</span><span class="kt">%</span><span class="o">,</span> <span class="nv">$color-11</span><span class="o">,</span> <span class="nv">$eris-size</span> <span class="o">/</span> <span class="mi">0</span><span class="mf">.5</span><span class="p">);</span> <span class="p">}</span></code></pre></figure>
 
 <div class="note">
   Full code <a href="https://github.com/zachalbert/zachalbert.com_v6#the-orrery">available on github</a>.
@@ -308,7 +308,7 @@ positions the planet right on the edge of the orbit.</p>
 
 <p>The reason I used nesting pseudo objects is because it simplifies the animation process by just requiring the <code>.orbit</code> element to rotate. Everything else is a child of that, so rotates freely while also following the rotation of its parent.</p>
 
-<div class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="lineno"> 1</span> <span class="k">@mixin</span><span class="nf"> buildPlanet</span><span class="p">(</span><span class="nv">$orbitSize</span><span class="o">,</span> <span class="nv">$orbitPos</span><span class="o">,</span> <span class="nv">$color</span><span class="o">,</span> <span class="nv">$planetSize</span><span class="p">)</span> <span class="p">{</span>
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="lineno"> 1</span> <span class="k">@mixin</span><span class="nf"> buildPlanet</span><span class="p">(</span><span class="nv">$orbitSize</span><span class="o">,</span> <span class="nv">$orbitPos</span><span class="o">,</span> <span class="nv">$color</span><span class="o">,</span> <span class="nv">$planetSize</span><span class="p">)</span> <span class="p">{</span>
 <span class="lineno"> 2</span>   <span class="nv">$planetSize</span><span class="o">:</span> <span class="nv">$planetSize</span> <span class="o">*</span> <span class="mi">3</span><span class="p">;</span>
 <span class="lineno"> 3</span>   <span class="nv">$opacity</span><span class="o">:</span> <span class="mi">0</span><span class="mf">.55</span> <span class="o">-</span> <span class="p">(</span><span class="nv">$orbitPos</span><span class="o">/</span><span class="mi">100</span><span class="kt">%</span><span class="p">)</span><span class="o">*</span><span class="mi">2</span><span class="p">;</span>
 <span class="lineno"> 4</span> 
@@ -367,7 +367,7 @@ positions the planet right on the edge of the orbit.</p>
 <span class="lineno">57</span>       <span class="na">box-sizing</span><span class="o">:</span> <span class="no">border</span><span class="o">-</span><span class="n">box</span><span class="p">;</span>
 <span class="lineno">58</span>     <span class="p">}</span>
 <span class="lineno">59</span>   <span class="p">}</span>
-<span class="lineno">60</span> <span class="p">}</span></code></pre></div>
+<span class="lineno">60</span> <span class="p">}</span></code></pre></figure>
 
 <div class="note">
   Full code <a href="https://github.com/zachalbert/zachalbert.com_v6#the-orrery">available on github</a>.
@@ -379,7 +379,7 @@ positions the planet right on the edge of the orbit.</p>
 engine that will rotate an object indefinitely. We’ll later use the name of this keyframe animation (‘year’) for the 
 CSS 3 <code>animation</code> property.</p>
 
-<div class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="lineno"> 1</span> <span class="c1">// CW</span>
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="lineno"> 1</span> <span class="c1">// CW</span>
 <span class="lineno"> 2</span> <span class="k">@-webkit-keyframes</span> <span class="nt">year</span> <span class="p">{</span>
 <span class="lineno"> 3</span>   <span class="nt">from</span> <span class="p">{</span>
 <span class="lineno"> 4</span>     <span class="na">-webkit-transform</span><span class="o">:</span> <span class="nf">rotate3d</span><span class="p">(</span><span class="mi">0</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="mi">1</span><span class="o">,</span> <span class="mi">180</span><span class="kt">deg</span><span class="p">);</span>
@@ -389,7 +389,7 @@ CSS 3 <code>animation</code> property.</p>
 <span class="lineno"> 8</span>     <span class="na">-webkit-transform</span><span class="o">:</span> <span class="nf">rotate3d</span><span class="p">(</span><span class="mi">0</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="mi">1</span><span class="o">,</span> <span class="mi">-180</span><span class="kt">deg</span><span class="p">);</span>
 <span class="lineno"> 9</span>             <span class="na">transform</span><span class="o">:</span> <span class="nf">rotate3d</span><span class="p">(</span><span class="mi">0</span><span class="o">,</span> <span class="mi">0</span><span class="o">,</span> <span class="mi">1</span><span class="o">,</span> <span class="mi">-180</span><span class="kt">deg</span><span class="p">);</span>
 <span class="lineno">10</span>   <span class="p">}</span>
-<span class="lineno">11</span> <span class="p">}</span></code></pre></div>
+<span class="lineno">11</span> <span class="p">}</span></code></pre></figure>
 
 <div class="note">
   Full code <a href="https://github.com/zachalbert/zachalbert.com_v6#the-orrery">available on github</a>.
@@ -397,7 +397,7 @@ CSS 3 <code>animation</code> property.</p>
 
 <p>This sets up how fast the planets should rotate relative to each other, modified by the <code>$speed</code> variable. The speed value was used to fine-tune the speed that the planets rotated altogether so I could adjust it easily. I included Earth as an example below.</p>
 
-<div class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="lineno"> 1</span> <span class="nv">$speed</span><span class="o">:</span>   <span class="mi">8</span><span class="p">;</span> <span class="c1">// Increase to speed up planetary rotation</span>
+<figure class="highlight"><pre><code class="language-scss" data-lang="scss"><span class="lineno"> 1</span> <span class="nv">$speed</span><span class="o">:</span>   <span class="mi">8</span><span class="p">;</span> <span class="c1">// Increase to speed up planetary rotation</span>
 <span class="lineno"> 2</span> 
 <span class="lineno"> 3</span> <span class="c1">// Planetary orbital periods, modified by the $speed</span>
 <span class="lineno"> 4</span> <span class="c1">// http://nssdc.gsfc.nasa.gov/planetary/factsheet/</span>
@@ -408,7 +408,7 @@ CSS 3 <code>animation</code> property.</p>
 <span class="lineno"> 9</span> 
 <span class="lineno">10</span> <span class="c1">// Animate planetary orbits</span>
 <span class="lineno">11</span> <span class="nc">.earth</span> <span class="nc">.orbit</span>  <span class="p">{</span> <span class="na">-webkit-animation</span><span class="o">:</span> <span class="n">year</span> <span class="si">#{</span><span class="nv">$earth</span><span class="si">}</span> <span class="n">linear</span> <span class="n">infinite</span><span class="p">;</span>
-<span class="lineno">12</span>                          <span class="na">animation</span><span class="o">:</span> <span class="n">year</span> <span class="si">#{</span><span class="nv">$earth</span><span class="si">}</span> <span class="n">linear</span> <span class="n">infinite</span><span class="p">;</span> <span class="p">}</span></code></pre></div>
+<span class="lineno">12</span>                          <span class="na">animation</span><span class="o">:</span> <span class="n">year</span> <span class="si">#{</span><span class="nv">$earth</span><span class="si">}</span> <span class="n">linear</span> <span class="n">infinite</span><span class="p">;</span> <span class="p">}</span></code></pre></figure>
 
 <div class="note">
   Full code <a href="https://github.com/zachalbert/zachalbert.com_v6#the-orrery">available on github</a>.
@@ -499,19 +499,22 @@ CSS 3 <code>animation</code> property.</p>
             <div class="bio-pic" title="Zac Halbert"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><meta itemprop="name" content="Zac Halbert"></span></div>
           </div>
           <div class="post_main">
-            <p>
-              Hi, I'm Zac Halbert. I'm a digital product designer and lifelong learner living in San Francisco, California with my <a href="https://instagram.com/p/LqnU4XN7Rv">Wife Sheena and sheepdog Rufus</a>. I currently run the <a href="http://tradecrafted.com/">Product Design &amp; UX track at Tradecraft</a>, where we train smart people to succeed in traction roles at high-growth startups.
-            </p>
-            <p>
-              I also own independent product design consultancy <a href="http://www.scouthawk.com/">Scout Hawk Product Design Studio</a>, where I help entrepreneurs turn hazy ideas into concrete digital products, and <a href="http://www.foliotwist.com/">Foliotwist</a>, a portfolio and marketing SaaS company for visual artists. I also advise a number of companies on the intersection of user experience design, product design and management, and rapid prototyping and idea validation that draws heavily from the <a href="http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898">Lean Startup</a> philosophy.
-            </p>
-            <p>
-              My background is a mixture between formal graphic design and fine arts education, mixed with a long history of self-taught frontend programming skills. I began to learn HTML, CSS, and UI design at age 12 (I was a huge nerd), and got my first job as a web designer at age 15 &mdash; and have been doing it and loving it ever since. I eventually got my degree in graphic design, but have diverse interest in nearly every field that blends technical and creative work.
-            </p>
-            <p>
-              While I'm not very good at keeping my <a href="/work">portfolio</a> or <a href="/">blog</a> up to date, I always love connecting with fellow designers, entrepreneurs, and developers. Here are just a fraction of the companies I've had the pleasure to work with.
-            </p>
+            <div class="prog-disc-about contracted">
+              <p>
+                Hi, I'm Zac Halbert. I'm a digital product designer and lifelong learner living in San Francisco, California with my wife, son, and sheepdog. I currently run the <a href="http://tradecrafted.com/">Product Design &amp; UX track at Tradecraft</a>, where we train smart people to succeed in traction roles at high-growth startups.
+              </p>
+              <p>
+                I also own independent product design consultancy <a href="http://www.scouthawk.com/">Scout Hawk Product Design Studio</a>, where I help entrepreneurs turn hazy ideas into concrete digital products, and <a href="http://www.foliotwist.com/">Foliotwist</a>, a portfolio and marketing SaaS company for visual artists. I also advise a number of companies on the intersection of user experience design, product design and management, and rapid prototyping and idea validation that draws heavily from the <a href="http://www.amazon.com/The-Lean-Startup-Entrepreneurs-Continuous/dp/0307887898">Lean Startup</a> philosophy.
+              </p>
+              <p>
+                My background is a mixture between formal graphic design and fine arts education, mixed with a long history of self-taught frontend programming skills. I began to learn HTML, CSS, and UI design at age 12 (I was a huge nerd), and got my first job as a web designer at age 15 &mdash; and have been doing it and loving it ever since. I eventually got my degree in graphic design, but have diverse interest in nearly every field that blends technical and creative work.
+              </p>
+              <p>
+                While I'm not very good at keeping my <a href="/work">portfolio</a> or <a href="/">blog</a> up to date, I always love connecting with fellow designers, entrepreneurs, and developers. Here are just a few of the companies I've had the pleasure to work with.
+              </p>
+            </div>
           </div>
+
           <div class="nascarification">
             <span class="nascar samahope" title="SamaHope"></span><span class="nascar samagroup" title="SamaGroup"></span><span class="nascar archively" title="Archively"></span><span class="nascar broadly" title="Broadly"></span><span class="nascar sharefund" title="ShareFund"></span><span class="nascar recurly" title="Recurly"></span><!-- <span class="nascar nomnommer" title="NomNommer"></span> -->
             <br><br>
