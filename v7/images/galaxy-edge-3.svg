@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200px" height="800px" viewBox="0 0 1200 800" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>galaxy-edge-3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="galaxy-edge-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path
+          d="M1200,800 L-1.13686838e-13,800 L-1.13686838e-13,600 C87.0138931,565.996949 153.68056,538.048831 200,516.155647 C269.47916,483.31587 348.10094,434.635387 400,400 C451.89906,365.364613 532.737212,278.166333 600,245.255324 C667.262788,212.344316 726.634443,219.273077 800,200 C873.365557,180.726923 931.731699,149.652391 1000,120 C1045.5122,100.23174 1112.17887,60.2317396 1200,2.84217094e-14 L1200,800 Z"
+          id="galaxy-edge" fill="#302345" fill-rule="nonzero"></path>
+    </g>
+</svg>
